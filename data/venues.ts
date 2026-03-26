@@ -26,7 +26,7 @@ export const venues: Venue[] = [
       "Breakfast burritos",
       "Free WiFi (network: EQAC)",
     ],
-    cellService: true,
+    cellService: false,
   },
   {
     slug: "cafe-aquatica",

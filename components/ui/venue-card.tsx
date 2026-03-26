@@ -20,7 +20,7 @@ interface VenueCardProps {
 
 export function VenueCard({ venue }: VenueCardProps) {
   return (
-    <article className="bg-card border border-border rounded-2xl p-5 md:p-6 transition-all hover:border-accent/20">
+    <article className="bg-card border border-border rounded-2xl p-5 md:p-6 transition-all hover:border-accent/20 h-full flex flex-col">
       <div className="flex items-start justify-between gap-3">
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 flex-wrap">
