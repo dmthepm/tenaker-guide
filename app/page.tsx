@@ -87,6 +87,12 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <a
+            href="/essentials"
+            className="mt-4 inline-flex items-center text-xs font-medium text-accent hover:text-accent-hover transition-colors"
+          >
+            Full essentials guide (gas, groceries, pharmacy, hardware) &rarr;
+          </a>
         </div>
       </section>
 
