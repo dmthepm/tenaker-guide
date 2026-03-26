@@ -78,9 +78,14 @@ export default function EmergencyPage() {
                   {contact.description}
                 </p>
                 {contact.address && (
-                  <p className="text-xs text-muted/70 mt-2 font-mono">
-                    {contact.address}
-                  </p>
+                  <a
+                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(contact.name + ", " + contact.address)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-muted/70 mt-2 font-mono underline decoration-border hover:text-accent hover:decoration-accent transition-colors block"
+                  >
+                    {contact.address} ↗
+                  </a>
                 )}
                 {contact.driveTime && (
                   <p className="text-xs text-accent font-mono font-medium mt-1">
@@ -150,9 +155,14 @@ export default function EmergencyPage() {
                   {contact.description}
                 </p>
                 {contact.address && (
-                  <p className="text-xs text-muted/70 mt-2 font-mono">
-                    {contact.address}
-                  </p>
+                  <a
+                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(contact.name + ", " + contact.address)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-muted/70 mt-2 font-mono underline decoration-border hover:text-accent hover:decoration-accent transition-colors block"
+                  >
+                    {contact.address} ↗
+                  </a>
                 )}
                 {contact.driveTime && (
                   <p className="text-xs text-accent font-mono font-medium mt-1">
