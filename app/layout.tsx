@@ -38,6 +38,21 @@ export const metadata: Metadata = {
     url: "https://tenaker.devonmeadows.com",
     siteName: "Ten Aker Wood Guide",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1024,
+        height: 1024,
+        alt: "Ten Aker Wood - Banana slugs in the redwoods",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ten Aker Wood - Local Guide",
+    description:
+      "Your guide to Cazadero and Sonoma County. Food, outdoors, wellness, and everything you need while you're here.",
+    images: ["/og-image.png"],
   },
 };
 
