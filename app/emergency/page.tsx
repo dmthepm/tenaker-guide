@@ -76,6 +76,48 @@ export default function EmergencyPage() {
           </div>
         </section>
 
+        {/* Emergency Alert Signups */}
+        <section>
+          <h2 className="font-mono text-xs uppercase tracking-widest text-muted mb-4">
+            Sign Up for Emergency Alerts
+          </h2>
+          <div className="bg-accent/5 border border-accent/15 rounded-xl p-5">
+            <p className="text-sm text-foreground font-medium mb-3">
+              Do this before you arrive. These alerts can save your life in a fire evacuation.
+            </p>
+            <div className="space-y-2">
+              <a
+                href="https://socoemergency.org/get-ready/sign-up/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between bg-background border border-border rounded-lg px-4 py-3 hover:border-accent/30 transition-colors"
+              >
+                <div>
+                  <p className="text-sm font-semibold text-foreground">SoCoAlert</p>
+                  <p className="text-xs text-muted">Sonoma County official emergency alerts — phone, text, or email</p>
+                </div>
+                <span className="text-accent text-xs font-medium shrink-0 ml-3">Sign up &rarr;</span>
+              </a>
+              <a
+                href="https://pgealerts.alerts.pge.com/outage-tools/get-psps-alerts/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between bg-background border border-border rounded-lg px-4 py-3 hover:border-accent/30 transition-colors"
+              >
+                <div>
+                  <p className="text-sm font-semibold text-foreground">PG&E PSPS Alerts</p>
+                  <p className="text-xs text-muted">Power shutoff notifications — outages can last 24-72+ hours in Cazadero</p>
+                </div>
+                <span className="text-accent text-xs font-medium shrink-0 ml-3">Sign up &rarr;</span>
+              </a>
+              <div className="bg-background border border-border rounded-lg px-4 py-3">
+                <p className="text-sm font-semibold text-foreground">Nixle Local Alerts</p>
+                <p className="text-xs text-muted">Text your ZIP code <span className="font-mono font-semibold text-foreground">95421</span> to <span className="font-mono font-semibold text-foreground">888777</span></p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Safety Tips */}
         <section>
           <h2 className="font-mono text-xs uppercase tracking-widest text-muted mb-4 flex items-center gap-2">
