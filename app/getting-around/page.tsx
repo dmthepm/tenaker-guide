@@ -1,6 +1,6 @@
 import { PageHeader } from "@/components/layout/page-header";
 import { Footer } from "@/components/layout/footer";
-import { Car, Warning, MapPin, DownloadSimple, DeviceMobileCamera, Path, Bug, Truck, Jeep, SmileyNervous } from "@phosphor-icons/react/dist/ssr";
+import { Car, MapPin, DownloadSimple, DeviceMobileCamera, Path } from "@phosphor-icons/react/dist/ssr";
 
 export const metadata = {
   title: "Getting Around | Ten Aker Wood",
@@ -115,36 +115,32 @@ export default function GettingAroundPage() {
             <Path size={14} />
             Scenic Drives
           </h2>
-          <div className="space-y-3">
-            <div className="bg-card border border-border rounded-xl p-4">
-              <h3 className="text-sm font-semibold text-foreground">
-                Fort Ross Road
-              </h3>
-              <p className="text-xs text-muted mt-1">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="bg-card border border-border rounded-xl p-5">
+              <p className="text-2xl mb-2">🌲</p>
+              <h3 className="text-base font-semibold text-foreground">Fort Ross Road</h3>
+              <p className="text-sm text-muted mt-1 leading-relaxed">
                 The best drive. Enclosed redwood canyon opens suddenly to ocean views at the ridge. 10 miles from Cazadero to Hwy 1. On a clear day you can see to Mt. Tam.
               </p>
             </div>
-            <div className="bg-card border border-border rounded-xl p-4">
-              <h3 className="text-sm font-semibold text-foreground">
-                Coleman Valley Road
-              </h3>
-              <p className="text-xs text-muted mt-1">
+            <div className="bg-card border border-border rounded-xl p-5">
+              <p className="text-2xl mb-2">🌊</p>
+              <h3 className="text-base font-semibold text-foreground">Coleman Valley Road</h3>
+              <p className="text-sm text-muted mt-1 leading-relaxed">
                 10 miles from Occidental to the coast. Climbs steeply through forest, crests with sweeping Pacific views, then drops to Coleman Beach. Mid-afternoon for clear views.
               </p>
             </div>
-            <div className="bg-card border border-border rounded-xl p-4">
-              <h3 className="text-sm font-semibold text-foreground">
-                Bohemian Highway
-              </h3>
-              <p className="text-xs text-muted mt-1">
+            <div className="bg-card border border-border rounded-xl p-5">
+              <p className="text-2xl mb-2">🛤️</p>
+              <h3 className="text-base font-semibold text-foreground">Bohemian Highway</h3>
+              <p className="text-sm text-muted mt-1 leading-relaxed">
                 Freestone &rarr; Occidental &rarr; Monte Rio. Redwood groves, pastures, tiny towns. Stop at Wild Flour Bread in Freestone (Fri&ndash;Mon only).
               </p>
             </div>
-            <div className="bg-card border border-border rounded-xl p-4">
-              <h3 className="text-sm font-semibold text-foreground">
-                Valley Ford to Bodega
-              </h3>
-              <p className="text-xs text-muted mt-1">
+            <div className="bg-card border border-border rounded-xl p-5">
+              <p className="text-2xl mb-2">🐄</p>
+              <h3 className="text-base font-semibold text-foreground">Valley Ford to Bodega</h3>
+              <p className="text-sm text-muted mt-1 leading-relaxed">
                 A completely different landscape. Open dairy pasture, weathered barns, coastal pastoral. The town of Bodega has the church from Hitchcock&apos;s <em>The Birds</em>.
               </p>
             </div>
@@ -157,72 +153,63 @@ export default function GettingAroundPage() {
             <Car size={14} />
             Road Tips
           </h2>
-          <div className="space-y-3">
-            <div className="bg-card border border-border rounded-xl p-4">
-              <h3 className="text-sm font-semibold text-foreground">
-                No Uber or Lyft up here
-              </h3>
-              <p className="text-xs text-muted mt-1">
-                Rideshare doesn&apos;t reach Cazadero. You&apos;ll need a car. Locals use{" "}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="bg-card border border-border rounded-xl p-5">
+              <p className="text-2xl mb-2">🚗</p>
+              <h3 className="text-base font-semibold text-foreground">No Uber or Lyft</h3>
+              <p className="text-sm text-muted mt-1 leading-relaxed">
+                Rideshare doesn&apos;t reach Cazadero. Locals use{" "}
                 <a href="https://r2t2taxi.org/" target="_blank" rel="noopener noreferrer" className="text-accent underline">R2T2 Taxi</a>
-                {" "}for the Russian River area. They also deliver food from local restaurants to lower Cazadero and Monte Rio. Otherwise, coordinate with production for rides or rentals.
+                {" "}for rides and food delivery to lower Caz and Monte Rio.
               </p>
             </div>
-            <div className="bg-card border border-border rounded-xl p-4">
-              <h3 className="text-sm font-semibold text-foreground">
-                Gas up before you come up
-              </h3>
-              <p className="text-xs text-muted mt-1">
-                No gas station in Cazadero. Guerneville and Jenner are the closest
-                fill-ups. If you&apos;re driving from the airport, there are stations all
-                along Highway 116.
+            <div className="bg-card border border-border rounded-xl p-5">
+              <p className="text-2xl mb-2">⛽</p>
+              <h3 className="text-base font-semibold text-foreground">Gas up first</h3>
+              <p className="text-sm text-muted mt-1 leading-relaxed">
+                No gas in Cazadero. Guerneville and Jenner are the closest. If driving from the airport, stations all along Highway 116.
               </p>
             </div>
-            <div className="bg-card border border-border rounded-xl p-4">
-              <h3 className="text-sm font-semibold text-foreground">
-                Download your maps offline
-              </h3>
-              <p className="text-xs text-muted mt-1">
-                See the offline maps section below for step-by-step instructions. Best to do this before you leave WiFi.
+            <div className="bg-card border border-border rounded-xl p-5">
+              <p className="text-2xl mb-2">📡</p>
+              <h3 className="text-base font-semibold text-foreground">Free WiFi in Caz</h3>
+              <p className="text-sm text-muted mt-1 leading-relaxed">
+                General Store and firehouse both have free WiFi. Network: <span className="font-mono font-semibold">EQAC</span>. In Guerneville, Coffee Bazaar opens at 6am with WiFi.
               </p>
             </div>
-            <div className="bg-card border border-border rounded-xl p-4">
-              <h3 className="text-sm font-semibold text-foreground">
-                Free WiFi in Cazadero
-              </h3>
-              <p className="text-xs text-muted mt-1">
-                The General Store and the firehouse both have free WiFi.
-                Look for the network name <span className="font-mono font-semibold">EQAC</span>.
-                In Guerneville, Coffee Bazaar on Armstrong Woods Rd has free WiFi and opens at 6am.
+            <div className="bg-card border border-border rounded-xl p-5">
+              <p className="text-2xl mb-2">📍</p>
+              <h3 className="text-base font-semibold text-foreground">Monte Rio vs. Cazadero</h3>
+              <p className="text-sm text-muted mt-1 leading-relaxed">
+                Staying in Monte Rio? Everything is 10-15 min closer than the times above. You have cell service and you&apos;re 10 min from Guerneville for groceries and gas.
               </p>
             </div>
-            <div className="bg-sage/20 border border-sage/40 rounded-xl p-4">
-              <h3 className="text-sm font-semibold text-foreground">
-                Monte Rio vs. Cazadero
-              </h3>
-              <p className="text-xs text-muted mt-1">
-                If you are staying in Monte Rio, everything is 10-15 min closer
-                than the times shown above (which are from the Caz General Store).
-                Monte Rio has cell service, and you are only 10 min from Guerneville
-                for groceries, gas, and restaurants.
+            <div className="bg-card border border-border rounded-xl p-5">
+              <p className="text-2xl mb-2">🦌</p>
+              <h3 className="text-base font-semibold text-foreground">Night driving</h3>
+              <p className="text-sm text-muted mt-1 leading-relaxed">
+                No streetlights. Deer, foxes, and raccoons at dawn and dusk. Drive slow, high beams when safe. The roads are narrow and winding.
               </p>
             </div>
-            <div className="bg-card border border-border rounded-xl p-4">
-              <h3 className="text-sm font-semibold text-foreground">
-                Night driving is real
-              </h3>
-              <p className="text-xs text-muted mt-1">
-                There are no streetlights on any of these roads. Deer are active at dawn
-                and dusk. I always drive slow, high beams when safe.
-                The roads are narrow and winding.
+            <div className="bg-card border border-border rounded-xl p-5">
+              <p className="text-2xl mb-2">👋</p>
+              <h3 className="text-base font-semibold text-foreground">Let locals pass</h3>
+              <p className="text-sm text-muted mt-1 leading-relaxed">
+                If someone flashes their lights behind you, pull over and let them through. Locals know these roads. Plenty of pulloffs. Everybody&apos;s happier.
               </p>
             </div>
-            <div className="bg-card border border-border rounded-xl p-4">
-              <h3 className="text-sm font-semibold text-foreground">
-                Let locals pass
-              </h3>
-              <p className="text-xs text-muted mt-1">
-                On the tight roads, sometimes you need to pull off to let oncoming cars through. If someone behind you starts flashing their lights, pull over and let them pass. The locals know these roads well and like to move. Plenty of pulloffs along the way. Everybody's happier.
+            <div className="bg-card border border-border rounded-xl p-5">
+              <p className="text-2xl mb-2">✈️</p>
+              <h3 className="text-base font-semibold text-foreground">SFO or STS?</h3>
+              <p className="text-sm text-muted mt-1 leading-relaxed">
+                SFO has more flights but is further. Santa Rosa Airport (STS) is closer with limited routes. Check both.
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-5">
+              <p className="text-2xl mb-2">🌧️</p>
+              <h3 className="text-base font-semibold text-foreground">Spring weather</h3>
+              <p className="text-sm text-muted mt-1 leading-relaxed">
+                April-May can have rain. Roads can flood. The creek rises fast. If water is flowing across a road, turn around.
               </p>
             </div>
           </div>
