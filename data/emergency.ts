@@ -115,6 +115,16 @@ export const safetyTips = [
       "AT&T has very spotty coverage in Cazadero. T-Mobile and Verizon are effectively dead. Some spots near the General Store get a bar or two, but don't count on it. Free WiFi is available at the General Store and the firehouse (network: EQAC). Download maps, music, and anything you need before driving up. Walkie-talkies are recommended for on-set communication.",
   },
   {
+    title: "Yellow Jackets",
+    content:
+      "Yellow jackets are out in spring and more aggressive than bees. They look similar but they're not bees. If you see a nest or get swarmed, move away quickly. They're attracted to food and sugary drinks, so keep craft services covered.",
+  },
+  {
+    title: "Mosquito Hour",
+    content:
+      "Around 6pm the mosquitoes show up, especially near water and in the forest. They're intense for an hour or two, then taper off. Sawyer Picaridin works well and won't damage camera gear or synthetic fabrics the way DEET can.",
+  },
+  {
     title: "No Gas",
     content:
       "There is no gas station in Cazadero. Nearest is Lambert's 76 in Guerneville (21 min). I've learned to fill up every time I pass through Guerneville.",
