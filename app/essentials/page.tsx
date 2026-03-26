@@ -5,7 +5,13 @@ import { Footer } from "@/components/layout/footer";
 import { WifiSlash, WifiHigh, WifiX } from "@phosphor-icons/react/dist/ssr";
 
 export const metadata = {
-  title: "Essentials - Ten Aker Wood Guide",
+  title: "Essentials | Ten Aker Wood",
+  description: "Gas, groceries, cell service, pharmacy, and hardware near Cazadero. Everything you need for daily life in rural Sonoma County.",
+  openGraph: {
+    title: "Essentials | Ten Aker Wood",
+    description: "Gas, groceries, cell service, pharmacy, and hardware near Cazadero. Everything you need for daily life in rural Sonoma County.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function EssentialsPage() {

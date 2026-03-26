@@ -4,7 +4,13 @@ import { VenueCard } from "@/components/ui/venue-card";
 import { Footer } from "@/components/layout/footer";
 
 export const metadata = {
-  title: "Outdoors - Ten Aker Wood Guide",
+  title: "Outdoors | Ten Aker Wood",
+  description: "Hikes, beaches, and day trips from Cazadero. Old-growth redwoods, Sonoma Coast, harbor seals, whale watching, and scenic drives.",
+  openGraph: {
+    title: "Outdoors | Ten Aker Wood",
+    description: "Hikes, beaches, and day trips from Cazadero. Old-growth redwoods, Sonoma Coast, harbor seals, whale watching, and scenic drives.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function OutdoorsPage() {

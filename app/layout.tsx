@@ -22,7 +22,7 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: "Ten Aker Wood - Local Guide",
   description:
-    "Your guide to Cazadero and Sonoma County. Food, outdoors, wellness, and everything you need while you're here.",
+    "Local guide for the Ten Aker Wood cast and crew. Food, outdoors, wellness, and essentials in Cazadero and Sonoma County.",
   keywords: [
     "Ten Aker Wood",
     "Cazadero",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ten Aker Wood - Local Guide",
     description:
-      "Your guide to Cazadero and Sonoma County. Food, outdoors, wellness, and everything you need while you're here.",
+      "Local guide for the Ten Aker Wood cast and crew. Food, outdoors, wellness, and essentials in Cazadero and Sonoma County.",
     url: "https://tenaker.devonmeadows.com",
     siteName: "Ten Aker Wood Guide",
     type: "website",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ten Aker Wood - Local Guide",
     description:
-      "Your guide to Cazadero and Sonoma County. Food, outdoors, wellness, and everything you need while you're here.",
+      "Local guide for the Ten Aker Wood cast and crew. Food, outdoors, wellness, and essentials in Cazadero and Sonoma County.",
     images: ["/og-image.png"],
   },
 };

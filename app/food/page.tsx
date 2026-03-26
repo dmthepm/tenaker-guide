@@ -4,7 +4,13 @@ import { VenueCard } from "@/components/ui/venue-card";
 import { Footer } from "@/components/layout/footer";
 
 export const metadata = {
-  title: "Food & Drink - Ten Aker Wood Guide",
+  title: "Food & Drink | Ten Aker Wood",
+  description: "Restaurants, cafes, and bakeries near Cazadero. From the General Store five minutes away to farm-to-table spots worth the drive.",
+  openGraph: {
+    title: "Food & Drink | Ten Aker Wood",
+    description: "Restaurants, cafes, and bakeries near Cazadero. From the General Store five minutes away to farm-to-table spots worth the drive.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function FoodPage() {

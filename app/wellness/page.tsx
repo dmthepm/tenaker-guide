@@ -4,7 +4,13 @@ import { VenueCard } from "@/components/ui/venue-card";
 import { Footer } from "@/components/layout/footer";
 
 export const metadata = {
-  title: "Wellness - Ten Aker Wood Guide",
+  title: "Wellness | Ten Aker Wood",
+  description: "Spas, massage, and soaking near Cazadero. Osmosis cedar enzyme bath, Boon Hotel pool, Jaiyen Thai bodywork.",
+  openGraph: {
+    title: "Wellness | Ten Aker Wood",
+    description: "Spas, massage, and soaking near Cazadero. Osmosis cedar enzyme bath, Boon Hotel pool, Jaiyen Thai bodywork.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function WellnessPage() {

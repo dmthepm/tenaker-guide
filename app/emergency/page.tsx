@@ -4,7 +4,13 @@ import { Footer } from "@/components/layout/footer";
 import { Phone, Warning, FirstAidKit } from "@phosphor-icons/react/dist/ssr";
 
 export const metadata = {
-  title: "Emergency - Ten Aker Wood Guide",
+  title: "Emergency | Ten Aker Wood",
+  description: "Hospitals, urgent care, poison oak, ticks, fire evacuation, and emergency contacts near Cazadero. Bookmark this page.",
+  openGraph: {
+    title: "Emergency | Ten Aker Wood",
+    description: "Hospitals, urgent care, poison oak, ticks, fire evacuation, and emergency contacts near Cazadero. Bookmark this page.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function EmergencyPage() {

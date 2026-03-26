@@ -3,7 +3,13 @@ import { Footer } from "@/components/layout/footer";
 import { Car, Warning, MapPin, DownloadSimple, DeviceMobileCamera, Path, Bug, Truck, Jeep, SmileyNervous } from "@phosphor-icons/react/dist/ssr";
 
 export const metadata = {
-  title: "Getting Around - Ten Aker Wood Guide",
+  title: "Getting Around | Ten Aker Wood",
+  description: "Drive times, offline maps, road tips, and scenic drives around Cazadero. No Uber up here. Download your maps before you lose service.",
+  openGraph: {
+    title: "Getting Around | Ten Aker Wood",
+    description: "Drive times, offline maps, road tips, and scenic drives around Cazadero. No Uber up here. Download your maps before you lose service.",
+    images: ["/og-image.png"],
+  },
 };
 
 const distances = [
