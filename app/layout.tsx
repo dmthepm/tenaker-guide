@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Fraunces } from "next/font/google";
-import { LenisProvider } from "@/components/lenis-provider";
 import { Nav } from "@/components/layout/nav";
 import "./globals.css";
 
@@ -53,10 +52,8 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable}`}
     >
       <body className="antialiased pb-20 md:pb-0">
-        <LenisProvider>
-          <Nav />
+        <Nav />
           <main className="min-h-[100dvh]">{children}</main>
-        </LenisProvider>
       </body>
     </html>
   );
