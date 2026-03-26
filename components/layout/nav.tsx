@@ -14,18 +14,18 @@ import {
 
 const tabs = [
   { href: "/", label: "Home", icon: House },
+  { href: "/essentials", label: "Essentials", icon: Toolbox },
   { href: "/food", label: "Food", icon: ForkKnife },
   { href: "/outdoors", label: "Outdoors", icon: Mountains },
-  { href: "/essentials", label: "Essentials", icon: Toolbox },
   { href: "/emergency", label: "SOS", icon: FirstAidKit },
 ];
 
 const desktopLinks = [
   { href: "/", label: "Home" },
-  { href: "/food", label: "Food & Drink" },
-  { href: "/wellness", label: "Wellness" },
-  { href: "/outdoors", label: "Outdoors" },
   { href: "/essentials", label: "Essentials" },
+  { href: "/food", label: "Food & Drink" },
+  { href: "/outdoors", label: "Outdoors" },
+  { href: "/wellness", label: "Wellness" },
   { href: "/getting-around", label: "Getting Around" },
   { href: "/emergency", label: "Emergency" },
 ];
