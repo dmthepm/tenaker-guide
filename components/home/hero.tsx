@@ -56,7 +56,7 @@ export function Hero() {
       >
         <p className="text-sm text-sage-dark leading-relaxed">
           <span className="font-semibold">From Devon —</span> I have lived up
-          here for 5 years. This guide is everything I wish someone had handed
+          here for 7 years. This guide is everything I wish someone had handed
           me when I first arrived. If something is missing or wrong, find me on
           set or in the group chat.
         </p>

@@ -1,8 +1,17 @@
 import { Venue } from "@/lib/types";
-import { getDirectionsUrl } from "@/lib/utils";
+import { getGoogleDirectionsUrl, getGoogleMapsUrl } from "@/lib/utils";
 import { TagPill } from "./tag-pill";
 import { DriveTime } from "./drive-time";
-import { MapPin, Phone, Clock, NavigationArrow, CellSignalFull, CellSignalNone, Star } from "@phosphor-icons/react/dist/ssr";
+import {
+  MapPin,
+  Phone,
+  Clock,
+  NavigationArrow,
+  CellSignalFull,
+  CellSignalNone,
+  Star,
+  ArrowSquareOut,
+} from "@phosphor-icons/react/dist/ssr";
 
 interface VenueCardProps {
   venue: Venue;
@@ -62,12 +71,20 @@ export function VenueCard({ venue }: VenueCardProps) {
           </div>
         )}
         {venue.address && (
-          <div className="flex items-center gap-1.5">
+          <a
+            href={getGoogleMapsUrl(venue)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 hover:text-accent transition-colors"
+          >
             <MapPin size={14} className="shrink-0" />
-            <span className="truncate">{venue.address}</span>
-          </div>
+            <span className="truncate underline decoration-border hover:decoration-accent">
+              {venue.address}
+            </span>
+            <ArrowSquareOut size={12} className="shrink-0" />
+          </a>
         )}
-        <div className="flex items-center gap-1.5">
+        <div className="flex items-center gap-1.5 flex-wrap">
           {venue.cellService !== undefined && (
             <span className="flex items-center gap-1">
               {venue.cellService ? (
@@ -75,7 +92,9 @@ export function VenueCard({ venue }: VenueCardProps) {
               ) : (
                 <CellSignalNone size={14} className="text-emergency/60" />
               )}
-              <span>{venue.cellService ? "Cell service" : "No cell service"}</span>
+              <span>
+                {venue.cellService ? "Cell service" : "No cell service"}
+              </span>
             </span>
           )}
           {venue.reservation && (
@@ -84,16 +103,14 @@ export function VenueCard({ venue }: VenueCardProps) {
               Reservation recommended
             </span>
           )}
-          {venue.cashOnly && (
-            <span className="ml-3">Cash only</span>
-          )}
+          {venue.cashOnly && <span className="ml-3">Cash only</span>}
         </div>
       </div>
 
       {/* Action buttons */}
       <div className="mt-4 flex gap-2">
         <a
-          href={getDirectionsUrl(venue)}
+          href={getGoogleDirectionsUrl(venue)}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-1.5 bg-accent text-white text-sm font-medium px-4 py-2.5 rounded-xl transition-colors hover:bg-accent-hover active:scale-[0.98]"
@@ -108,6 +125,17 @@ export function VenueCard({ venue }: VenueCardProps) {
           >
             <Phone size={16} />
             Call
+          </a>
+        )}
+        {venue.website && (
+          <a
+            href={venue.website}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 bg-border/50 text-foreground text-sm font-medium px-4 py-2.5 rounded-xl transition-colors hover:bg-border active:scale-[0.98]"
+          >
+            <ArrowSquareOut size={16} />
+            Website
           </a>
         )}
       </div>
