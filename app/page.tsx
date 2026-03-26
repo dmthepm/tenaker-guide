@@ -11,7 +11,7 @@ export default function Home() {
 
       {/* Know Before You Go */}
       <section className="px-6 py-6 max-w-5xl mx-auto">
-        <div className="bg-accent/5 border border-accent/15 rounded-xl p-5">
+        <div className="bg-accent/5 border border-accent/15 rounded-xl p-5 animate-fade-in" style={{ animationDelay: "0.2s" }}>
           <h2 className="font-[family-name:var(--font-fraunces)] text-lg font-semibold text-foreground flex items-center gap-2">
             <Warning size={20} className="text-accent" weight="fill" />
             Know Before You Go
@@ -20,16 +20,17 @@ export default function Home() {
             <div className="flex items-start gap-2.5">
               <CellSignalNone
                 size={18}
-                className="text-emergency/60 mt-0.5 shrink-0"
+                className="text-emergency mt-0.5 shrink-0"
+                weight="fill"
               />
               <div>
                 <p className="text-sm font-medium text-foreground">
                   Cell service is limited
                 </p>
                 <p className="text-xs text-muted mt-0.5">
-                  AT&T is spotty, T-Mobile and Verizon are dead. Free WiFi
-                  at the General Store and firehouse (network: EQAC). Download
-                  maps and music before driving up.
+                  Cell service is unreliable on every carrier up here. Free
+                  WiFi at the General Store and firehouse (network: EQAC).
+                  Download maps and music before driving up.
                 </p>
               </div>
             </div>
@@ -92,7 +93,7 @@ export default function Home() {
 
       {/* A Note About the Locals */}
       <section className="px-6 py-4 max-w-5xl mx-auto">
-        <div className="bg-sage/30 rounded-xl px-5 py-4 border border-sage/50">
+        <div className="bg-sage/30 rounded-xl px-5 py-4 border border-sage/50 animate-fade-in" style={{ animationDelay: "0.35s" }}>
           <h2 className="font-[family-name:var(--font-fraunces)] text-lg font-semibold text-foreground">
             A Note About the Locals
           </h2>

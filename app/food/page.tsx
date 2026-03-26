@@ -23,7 +23,7 @@ export default function FoodPage() {
     <>
       <PageHeader
         title="Food & Drink"
-        subtitle="From the Caz General Store five minutes away to farm-to-table restaurants worth the drive. Sorted by what\u2019s closest."
+        subtitle="From the Caz General Store five minutes away to farm-to-table restaurants worth the drive. Sorted by what's closest."
       />
       <div className="px-6 max-w-5xl mx-auto space-y-10 pb-12">
         {cafes.length > 0 && (

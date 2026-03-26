@@ -89,9 +89,9 @@ export function VenueCard({ venue }: VenueCardProps) {
           {venue.cellService !== undefined && (
             <span className="flex items-center gap-1">
               {venue.cellService ? (
-                <CellSignalFull size={14} className="text-sage-dark" />
+                <CellSignalFull size={16} className="text-sage-dark" weight="fill" />
               ) : (
-                <CellSignalNone size={14} className="text-emergency/60" />
+                <CellSignalNone size={16} className="text-emergency" weight="fill" />
               )}
               <span>
                 {venue.cellService ? "Cell service" : "No cell service"}

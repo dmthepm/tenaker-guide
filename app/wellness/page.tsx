@@ -14,7 +14,7 @@ export default function WellnessPage() {
     <>
       <PageHeader
         title="Wellness"
-        subtitle="Spas, massage, and soaking. You\u2019re in wine country. Treat yourself on a day off."
+        subtitle="Spas, massage, and soaking. You're in wine country. Treat yourself on a day off."
       />
       <div className="px-6 max-w-5xl mx-auto pb-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

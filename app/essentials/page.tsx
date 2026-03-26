@@ -52,7 +52,7 @@ export default function EssentialsPage() {
               <div>
                 <p className="text-sm font-semibold text-foreground">Coast (Jenner, Goat Rock): Nothing</p>
                 <p className="text-xs text-muted mt-0.5">
-                  No service on most of the Sonoma Coast. Let someone know where you\u2019re headed before you go.
+                  No service on most of the Sonoma Coast. Let someone know where you're headed before you go.
                 </p>
               </div>
             </div>
