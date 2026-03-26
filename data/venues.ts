@@ -37,7 +37,7 @@ export const venues: Venue[] = [
     description:
       "Waterfront coffee shop on the Jenner Estuary where the Russian River meets the Pacific. Organic coffee, homemade pastries, and live music on weekends.",
     devonNote:
-      "The views here are incredible. You're sitting right where the river meets the ocean. Great day-off spot, especially with the weekend live music.",
+      "The avocado toast here is my favorite. Focaccia bread is great too. The views are incredible. You're sitting right where the river meets the ocean. Great day-off spot, especially with the weekend live music.",
     address: "10439 Hwy 1, Jenner, CA 95450",
     coordinates: { lat: 38.4504, lng: -123.1069 },
     phone: "(707) 865-2251",
@@ -62,7 +62,7 @@ export const venues: Venue[] = [
     description:
       "The famous biscuit spot, formerly Big Bottom Market. Their biscuit mix was named one of Oprah's Favorite Things in 2016. Same recipe, new name.",
     devonNote:
-      "The savory biscuit is the move. It used to be called 'The Sneaky.' Same Grandma Steiner recipe that got Oprah's attention. Closed Tuesdays.",
+      "The savory biscuit sandwich is the move. It used to be called 'The Sneaky.' Same Grandma Steiner recipe that got Oprah's attention. Closed Tuesdays.",
     address: "16228 Main St, Guerneville, CA 95446",
     coordinates: { lat: 38.5015, lng: -122.9972 },
     phone: "(707) 604-7295",
@@ -331,16 +331,16 @@ export const venues: Venue[] = [
     category: "food",
     subcategory: "cafe",
     description:
-      "Health-forward cafe and market in downtown Sebastopol with great bowls and smoothies.",
+      "Health-forward cafe and market in downtown Sebastopol. Good smoothies and grab-and-go options.",
     devonNote:
-      "The hippie bowl here is what Ashley loves. Solid grab-and-go for the health-conscious.",
+      "Solid grab-and-go spot if you find yourself in Sebastopol. Good smoothies and healthy options.",
     address: "6990 McKinley St, Sebastopol, CA 95472",
     coordinates: { lat: 38.4023, lng: -122.8239 },
     hours: "Daily 8am-6pm",
     driveTime: "35 min",
     priceRange: "$$",
     tags: ["breakfast", "lunch", "healthy", "smoothies"],
-    highlights: ["Hippie bowl", "Smoothies", "Organic groceries"],
+    highlights: ["Smoothies", "Organic groceries", "Grab-and-go"],
     cellService: true,
   },
   {
@@ -363,6 +363,31 @@ export const venues: Venue[] = [
       "Ravioli",
       "Historic atmosphere",
       "Great for groups",
+    ],
+    cellService: true,
+  },
+  {
+    slug: "altamont-general-store",
+    name: "Altamont General Store",
+    category: "food",
+    subcategory: "cafe",
+    description:
+      "Woman-owned coffee house, restaurant, and curated market in Occidental. Farm-fresh menu, natural wine, soft serve, and the hippie bowl Ashley swears by.",
+    devonNote:
+      "This is where Ashley gets her hippie bowl. Beautiful space in a historic building. The natural wine selection is solid and they do pop-up art events. Worth combining with a trip to Wild Flour Bread or Howard's.",
+    address: "3703 Main St, Occidental, CA 95465",
+    coordinates: { lat: 38.4088, lng: -122.9481 },
+    website: "https://altamontgeneralstore.com",
+    hours: "Mon 9am-4pm, Thu-Sat 9am-7:30pm, Sun 9am-4pm. Closed Tue-Wed.",
+    driveTime: "40 min",
+    priceRange: "$$",
+    tags: ["breakfast", "lunch", "coffee", "wine", "day-off", "hippie-bowl"],
+    highlights: [
+      "Hippie bowl (Ashley's pick)",
+      "Natural wine",
+      "Soft serve",
+      "Pop-up art events",
+      "Curated housewares",
     ],
     cellService: true,
   },
