@@ -83,6 +83,26 @@ export default function Home() {
         </div>
       </section>
 
+
+      {/* A Note About the Locals */}
+      <section className="px-6 py-4 max-w-5xl mx-auto">
+        <div className="bg-sage/30 rounded-xl px-5 py-4 border border-sage/50">
+          <h2 className="font-[family-name:var(--font-fraunces)] text-lg font-semibold text-foreground">
+            A Note About the Locals
+          </h2>
+          <p className="text-sm text-sage-dark leading-relaxed mt-2">
+            The people who live in Cazadero are wonderful &mdash; but many are reclusive
+            and not used to the level of activity a film production brings. People ride
+            their dirt bikes and horses to the General Store here. We&apos;re a bit stuck in
+            a different time, and that&apos;s by choice.
+          </p>
+          <p className="text-sm text-sage-dark leading-relaxed mt-2">
+            Be friendly and easygoing. Give people respect and space. They&apos;ll likely be
+            engaging and interested in what you&apos;re doing &mdash; just don&apos;t overwhelm them.
+          </p>
+        </div>
+      </section>
+
       <QuickLinks />
       <TopPicks />
       <Footer />

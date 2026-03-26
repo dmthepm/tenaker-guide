@@ -1,6 +1,6 @@
 import { PageHeader } from "@/components/layout/page-header";
 import { Footer } from "@/components/layout/footer";
-import { Car, Warning, MapPin, DownloadSimple, DeviceMobileCamera } from "@phosphor-icons/react/dist/ssr";
+import { Car, Warning, MapPin, DownloadSimple, DeviceMobileCamera, Path, Bug, Truck, Jeep, SmileyNervous } from "@phosphor-icons/react/dist/ssr";
 
 export const metadata = {
   title: "Getting Around — Ten Aker Wood Guide",
@@ -103,6 +103,48 @@ export default function GettingAroundPage() {
           </div>
         </section>
 
+        {/* Scenic Drives */}
+        <section>
+          <h2 className="font-mono text-xs uppercase tracking-widest text-muted mb-4 flex items-center gap-2">
+            <Path size={14} />
+            Scenic Drives
+          </h2>
+          <div className="space-y-3">
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground">
+                Fort Ross Road
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                The best drive. Enclosed redwood canyon opens suddenly to ocean views at the ridge. 10 miles from Cazadero to Hwy 1. On a clear day you can see to Mt. Tam.
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground">
+                Coleman Valley Road
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                10 miles from Occidental to the coast. Climbs steeply through forest, crests with sweeping Pacific views, then drops to Coleman Beach. Mid-afternoon for clear views.
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground">
+                Bohemian Highway
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                Freestone &rarr; Occidental &rarr; Monte Rio. Redwood groves, pastures, tiny towns. Stop at Wild Flour Bread in Freestone (Fri&ndash;Mon only).
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground">
+                Valley Ford to Bodega
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                A completely different landscape &mdash; open dairy pasture, weathered barns, coastal pastoral. The town of Bodega has the church from Hitchcock&apos;s <em>The Birds</em>.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Tips */}
         <section>
           <h2 className="font-mono text-xs uppercase tracking-widest text-muted mb-4 flex items-center gap-2">
@@ -189,6 +231,52 @@ export default function GettingAroundPage() {
                 April-May can have rain, especially early in the shoot. Roads
                 can flood in heavy rain. The creek rises fast. If water is
                 flowing across a road, do not drive through it.
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground flex items-center gap-2">
+                <Bug size={16} className="text-muted" />
+                Mosquito hour
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                Mosquitoes come out around 6pm every evening near water and forest.
+                They&apos;ll eat you alive for 1&ndash;2 hours, then taper off. Stock Sawyer
+                Picaridin &mdash; it works like DEET but won&apos;t damage camera gear or
+                synthetic fabrics.
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground flex items-center gap-2">
+                <Truck size={16} className="text-muted" />
+                Road construction
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                There&apos;s active construction on River Road (spring 2026). Tree crews
+                also work on Cazadero Highway and Fort Ross Road throughout the season &mdash;
+                expect 5&ndash;10 minute stops while they clear branches from power lines.
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground flex items-center gap-2">
+                <Jeep size={16} className="text-muted" />
+                Ranch roads need 4WD
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                The ranch roads and mountain roads around here are gravel with steep
+                hills. If you only have two-wheel drive, don&apos;t attempt them &mdash; you
+                can easily get stuck and it&apos;s hard to get pulled out. Plus it tears
+                up the roads.
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground flex items-center gap-2">
+                <SmileyNervous size={16} className="text-muted" />
+                Carsickness warning
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                The roads between Cazadero and everywhere else are extremely winding.
+                If you or your passengers get carsick, drive slowly, look at the
+                horizon, and crack the windows. It&apos;s real out here.
               </p>
             </div>
           </div>
