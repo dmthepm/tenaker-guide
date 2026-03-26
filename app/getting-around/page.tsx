@@ -163,9 +163,9 @@ export default function GettingAroundPage() {
                 No Uber or Lyft up here
               </h3>
               <p className="text-xs text-muted mt-1">
-                Rideshare doesn&apos;t reach Cazadero. You&apos;ll need a car. If you&apos;re
-                arriving without one, coordinate with production for rides or
-                rentals.
+                Rideshare doesn&apos;t reach Cazadero. You&apos;ll need a car. Locals use{" "}
+                <a href="https://r2t2taxi.org/" target="_blank" rel="noopener noreferrer" className="text-accent underline">R2T2 Taxi</a>
+                {" "}for the Russian River area. Otherwise, coordinate with production for rides or rentals.
               </p>
             </div>
             <div className="bg-card border border-border rounded-xl p-4">
