@@ -107,7 +107,7 @@ export const safetyTips = [
   {
     title: "Road Safety",
     content:
-      "Roads are narrow, winding, and dark at night with no streetlights. Deer cross frequently at dawn and dusk. Drive slowly, use high beams when safe, and honk before blind curves. Some roads flood in heavy rain.",
+      "Roads are narrow, winding, and dark at night. No streetlights. Deer, foxes, and raccoons are active at dawn and dusk. Drive slow, high beams when safe. If someone behind you flashes their lights, pull off and let them pass. Some roads flood in heavy rain.",
   },
   {
     title: "Cell Service",

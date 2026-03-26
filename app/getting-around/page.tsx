@@ -167,7 +167,7 @@ export default function GettingAroundPage() {
                 Gas up before you come up
               </h3>
               <p className="text-xs text-muted mt-1">
-                No gas station in Cazadero. Monte Rio and Guerneville are the closest
+                No gas station in Cazadero. Guerneville and Jenner are the closest
                 fill-ups. If you&apos;re driving from the airport, there are stations all
                 along Highway 116.
               </p>
@@ -207,8 +207,24 @@ export default function GettingAroundPage() {
               </h3>
               <p className="text-xs text-muted mt-1">
                 There are no streetlights on any of these roads. Deer are active at dawn
-                and dusk. I always drive slowly, use high beams when safe, and honk
-                before blind curves. The roads are narrow and winding.
+                and dusk. I always drive slow, high beams when safe.
+                The roads are narrow and winding.
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground">
+                Let locals pass
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                On the tight roads, sometimes you need to pull off to let oncoming cars through. If someone behind you starts flashing their lights, pull over and let them pass. The locals know these roads well and like to move. Plenty of pulloffs along the way. Everybody's happier.
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground">
+                Yellow jackets
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                Yellow jackets are out in spring and they're more aggressive than bees. They look similar but they're not bees. If you see a nest or get swarmed, move away quickly. They're attracted to food and sugary drinks, so keep craft services covered.
               </p>
             </div>
             <div className="bg-card border border-border rounded-xl p-4">

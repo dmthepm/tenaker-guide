@@ -42,7 +42,7 @@ export default function Home() {
                   No gas in Cazadero
                 </p>
                 <p className="text-xs text-muted mt-0.5">
-                  Fill up in Monte Rio or Guerneville before heading to set.
+                  Fill up in Guerneville or Jenner before heading to set.
                   Nearest station is 15 min away.
                 </p>
               </div>
@@ -57,7 +57,7 @@ export default function Home() {
                 </p>
                 <p className="text-xs text-muted mt-0.5">
                   No streetlights. Deer at dawn and dusk. Drive slowly,
-                  especially at night. Honk before blind curves.
+                  especially at night. 
                 </p>
               </div>
             </div>
