@@ -109,31 +109,31 @@ export function VenueCard({ venue }: VenueCardProps) {
       </div>
 
       {/* Action buttons */}
-      <div className="mt-4 flex gap-2">
+      <div className="mt-4 flex flex-wrap gap-2">
         <a
           href={getGoogleMapsUrl(venue)}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1.5 bg-accent text-white text-sm font-medium px-4 py-2.5 rounded-xl transition-colors hover:bg-accent-hover active:scale-[0.98]"
+          className="flex items-center gap-1.5 bg-accent text-white text-xs sm:text-sm font-medium px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl transition-colors hover:bg-accent-hover active:scale-[0.98]"
         >
-          <MapTrifold size={16} weight="fill" />
+          <MapTrifold size={14} weight="fill" />
           Map
         </a>
         <a
           href={getGoogleDirectionsUrl(venue)}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1.5 bg-border/50 text-foreground text-sm font-medium px-4 py-2.5 rounded-xl transition-colors hover:bg-border active:scale-[0.98]"
+          className="flex items-center gap-1.5 bg-border/50 text-foreground text-xs sm:text-sm font-medium px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl transition-colors hover:bg-border active:scale-[0.98]"
         >
-          <NavigationArrow size={16} weight="fill" />
+          <NavigationArrow size={14} weight="fill" />
           Directions
         </a>
         {venue.phone && (
           <a
             href={`tel:${venue.phone}`}
-            className="flex items-center gap-1.5 bg-border/50 text-foreground text-sm font-medium px-4 py-2.5 rounded-xl transition-colors hover:bg-border active:scale-[0.98]"
+            className="flex items-center gap-1.5 bg-border/50 text-foreground text-xs sm:text-sm font-medium px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl transition-colors hover:bg-border active:scale-[0.98]"
           >
-            <Phone size={16} />
+            <Phone size={14} />
             Call
           </a>
         )}
@@ -142,9 +142,9 @@ export function VenueCard({ venue }: VenueCardProps) {
             href={venue.website}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1.5 bg-border/50 text-foreground text-sm font-medium px-4 py-2.5 rounded-xl transition-colors hover:bg-border active:scale-[0.98]"
+            className="flex items-center gap-1.5 bg-border/50 text-foreground text-xs sm:text-sm font-medium px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl transition-colors hover:bg-border active:scale-[0.98]"
           >
-            <ArrowSquareOut size={16} />
+            <ArrowSquareOut size={14} />
             Website
           </a>
         )}
