@@ -7,6 +7,7 @@ import {
   Phone,
   Clock,
   NavigationArrow,
+  MapTrifold,
   CellSignalFull,
   CellSignalNone,
   Star,
@@ -110,10 +111,19 @@ export function VenueCard({ venue }: VenueCardProps) {
       {/* Action buttons */}
       <div className="mt-4 flex gap-2">
         <a
-          href={getGoogleDirectionsUrl(venue)}
+          href={getGoogleMapsUrl(venue)}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-1.5 bg-accent text-white text-sm font-medium px-4 py-2.5 rounded-xl transition-colors hover:bg-accent-hover active:scale-[0.98]"
+        >
+          <MapTrifold size={16} weight="fill" />
+          Map
+        </a>
+        <a
+          href={getGoogleDirectionsUrl(venue)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-1.5 bg-border/50 text-foreground text-sm font-medium px-4 py-2.5 rounded-xl transition-colors hover:bg-border active:scale-[0.98]"
         >
           <NavigationArrow size={16} weight="fill" />
           Directions
