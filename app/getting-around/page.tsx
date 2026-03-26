@@ -1,6 +1,6 @@
 import { PageHeader } from "@/components/layout/page-header";
 import { Footer } from "@/components/layout/footer";
-import { Car, Warning, MapPin } from "@phosphor-icons/react/dist/ssr";
+import { Car, Warning, MapPin, DownloadSimple, DeviceMobileCamera } from "@phosphor-icons/react/dist/ssr";
 
 export const metadata = {
   title: "Getting Around — Ten Aker Wood Guide",
@@ -54,6 +54,55 @@ export default function GettingAroundPage() {
           </div>
         </section>
 
+        {/* Offline Maps */}
+        <section>
+          <h2 className="font-mono text-xs uppercase tracking-widest text-muted mb-4 flex items-center gap-2">
+            <DownloadSimple size={14} />
+            Download Offline Maps
+          </h2>
+          <div className="bg-accent/5 border border-accent/15 rounded-2xl p-5">
+            <p className="text-sm text-foreground font-medium">
+              Do this before you leave WiFi. You will not have cell service for navigation in Cazadero.
+            </p>
+            <p className="text-xs text-muted mt-2">
+              Download the area from Fort Ross (north) to Bodega Bay (south), Cazadero (west) to Sebastopol (east). This covers every destination in this guide.
+            </p>
+            <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="bg-background rounded-xl p-4 border border-border">
+                <h3 className="text-sm font-semibold text-foreground flex items-center gap-2">
+                  <DeviceMobileCamera size={16} />
+                  Google Maps
+                </h3>
+                <ol className="mt-2 text-xs text-muted space-y-1.5 list-decimal list-inside">
+                  <li>Open Google Maps</li>
+                  <li>Tap your profile picture (top right)</li>
+                  <li>Tap <span className="font-semibold text-foreground">Offline maps</span></li>
+                  <li>Tap <span className="font-semibold text-foreground">Select your own map</span></li>
+                  <li>Pinch to zoom out until the blue rectangle covers the area from Fort Ross down to Bodega Bay and east to Sebastopol</li>
+                  <li>Tap <span className="font-semibold text-foreground">Download</span></li>
+                </ol>
+                <p className="mt-2 text-xs text-muted italic">~150-250 MB. Use WiFi.</p>
+              </div>
+              <div className="bg-background rounded-xl p-4 border border-border">
+                <h3 className="text-sm font-semibold text-foreground flex items-center gap-2">
+                  <DeviceMobileCamera size={16} />
+                  Apple Maps
+                </h3>
+                <ol className="mt-2 text-xs text-muted space-y-1.5 list-decimal list-inside">
+                  <li>Open Apple Maps</li>
+                  <li>Tap your profile picture (bottom right)</li>
+                  <li>Tap <span className="font-semibold text-foreground">Offline Maps</span></li>
+                  <li>Tap <span className="font-semibold text-foreground">Download New Map</span></li>
+                  <li>Search for <span className="font-semibold text-foreground">Cazadero, CA</span></li>
+                  <li>Resize the box to cover Fort Ross to Bodega Bay to Sebastopol</li>
+                  <li>Tap <span className="font-semibold text-foreground">Download</span></li>
+                </ol>
+                <p className="mt-2 text-xs text-muted italic">~200-400 MB. Use WiFi.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Tips */}
         <section>
           <h2 className="font-mono text-xs uppercase tracking-widest text-muted mb-4 flex items-center gap-2">
@@ -86,9 +135,7 @@ export default function GettingAroundPage() {
                 Download your maps offline
               </h3>
               <p className="text-xs text-muted mt-1">
-                Google Maps and Apple Maps both support offline downloads. Save
-                the Cazadero/Guerneville area before you lose cell service. You
-                will need it.
+                See the offline maps section below for step-by-step instructions. Do this before you leave WiFi.
               </p>
             </div>
             <div className="bg-card border border-border rounded-xl p-4">
