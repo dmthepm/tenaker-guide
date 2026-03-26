@@ -206,6 +206,13 @@ export default function GettingAroundPage() {
               </p>
             </div>
             <div className="bg-card border border-border rounded-xl p-5">
+              <p className="text-2xl mb-2">🕐</p>
+              <h3 className="text-base font-semibold text-foreground">Check hours first</h3>
+              <p className="text-sm text-muted mt-1 leading-relaxed">
+                A lot of places out here are closed Mondays or Tuesdays. Check Google Maps before you drive somewhere. It's typically accurate.
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-5">
               <p className="text-2xl mb-2">🌧️</p>
               <h3 className="text-base font-semibold text-foreground">Spring weather</h3>
               <p className="text-sm text-muted mt-1 leading-relaxed">

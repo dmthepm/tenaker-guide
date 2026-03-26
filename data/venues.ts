@@ -54,6 +54,32 @@ export const venues: Venue[] = [
     cellService: false,
   },
   {
+    slug: "jillys-roadhouse",
+    name: "Jilly's Real Food Roadhouse",
+    category: "food",
+    subcategory: "restaurant",
+    description:
+      "Scratch-made comfort food in Jenner with picture windows overlooking the river and ocean. Smashburgers, fried chicken, brisket. Rotating menu, no seed oils, local sourcing.",
+    devonNote:
+      "Really good spot, somewhat new. Beautiful ambiance with views of where the river meets the ocean. About 20-30 bucks a person. Check hours before you drive out, a lot of places around here are closed Mondays or Tuesdays.",
+    address: "9960 Hwy 1, Jenner, CA 95450",
+    coordinates: { lat: 38.4490, lng: -123.1050 },
+    phone: "(707) 756-0119",
+    website: "https://www.instagram.com/jillysroadhousejenner/",
+    hours: "Fri-Mon 11:30am-6pm. Brunch Sat-Sun 9am-1pm. Closed Tue-Thu.",
+    driveTime: "25 min",
+    priceRange: "$$",
+    tags: ["lunch", "dinner", "brunch", "ocean", "burgers", "day-off"],
+    highlights: [
+      "Smashburger ($14-$18)",
+      "Buttermilk fried chicken",
+      "BBQ brisket sandwich",
+      "River-meets-ocean views",
+      "No seed oils, local sourcing",
+    ],
+    cellService: false,
+  },
+  {
     slug: "piknik",
     name: "Piknik Town Market",
     category: "food",
