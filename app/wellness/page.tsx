@@ -25,7 +25,7 @@ export default function WellnessPage() {
       <div className="px-6 max-w-5xl mx-auto pb-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {wellnessVenues.map((v, i) => (
-            <div key={v.slug} className="animate-fade-in" style={{ animationDelay: `${i * 80}ms` }}>
+            <div key={v.slug} className="animate-fade-in h-full" style={{ animationDelay: `${i * 80}ms` }}>
               <VenueCard venue={v} />
             </div>
           ))}
