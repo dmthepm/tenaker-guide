@@ -2,7 +2,6 @@ import { venues } from "@/data/venues";
 import { PageHeader } from "@/components/layout/page-header";
 import { VenueCard } from "@/components/ui/venue-card";
 import { Footer } from "@/components/layout/footer";
-import { CellSignalFull, CellSignalNone, WifiHigh } from "@phosphor-icons/react/dist/ssr";
 
 export const metadata = {
   title: "Essentials - Ten Aker Wood Guide",
@@ -28,40 +27,40 @@ export default function EssentialsPage() {
           <h2 className="font-mono text-xs uppercase tracking-widest text-muted mb-4">
             Cell Service
           </h2>
-          <div className="bg-card border border-border rounded-2xl p-5 space-y-3">
+          <div className="bg-card border border-border rounded-2xl p-5 space-y-4">
             <div className="flex items-start gap-3">
-              <CellSignalNone size={20} className="text-emergency/60 mt-0.5 shrink-0" />
+              <span className="text-xl mt-0.5 shrink-0">📵</span>
               <div>
-                <p className="text-sm font-medium text-foreground">Cazadero: Very Limited</p>
+                <p className="text-sm font-semibold text-foreground">Cazadero: Unreliable</p>
                 <p className="text-xs text-muted mt-0.5">
-                  AT&T has very spotty coverage. T-Mobile and Verizon are effectively dead. Some spots near the General Store get a bar or two. Download maps, music, and anything you need before driving up.
+                  Every carrier is spotty up here. Nobody counts on cellular. If you get a bar, consider it a bonus. Download maps, music, and anything you need before driving up.
                 </p>
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <CellSignalFull size={20} className="text-sage-dark mt-0.5 shrink-0" />
+              <span className="text-xl mt-0.5 shrink-0">📶</span>
               <div>
-                <p className="text-sm font-medium text-foreground">Guerneville & Monte Rio: Good</p>
+                <p className="text-sm font-semibold text-foreground">Guerneville & Monte Rio: Works</p>
                 <p className="text-xs text-muted mt-0.5">
-                  All major carriers work in Guerneville and Monte Rio. This is where you will catch up on texts, emails, and calls.
+                  Service works in Guerneville and Monte Rio. This is where you catch up on texts, emails, and calls.
                 </p>
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <CellSignalNone size={20} className="text-emergency/60 mt-0.5 shrink-0" />
+              <span className="text-xl mt-0.5 shrink-0">🚫</span>
               <div>
-                <p className="text-sm font-medium text-foreground">Coast (Jenner, Goat Rock): Dead</p>
+                <p className="text-sm font-semibold text-foreground">Coast (Jenner, Goat Rock): Nothing</p>
                 <p className="text-xs text-muted mt-0.5">
-                  No cell service on most of the Sonoma Coast. Tell someone where you are going before heading out.
+                  No service on most of the Sonoma Coast. Let someone know where you’re headed before you go.
                 </p>
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <WifiHigh size={20} className="text-sage-dark mt-0.5 shrink-0" />
+              <span className="text-xl mt-0.5 shrink-0">📡</span>
               <div>
-<p className="text-sm font-medium text-foreground">Free WiFi in Cazadero</p>
+                <p className="text-sm font-semibold text-foreground">Free WiFi in Cazadero</p>
                 <p className="text-xs text-muted mt-0.5">
-                  The General Store and the firehouse both have free WiFi. Look for the network <span className="font-mono font-medium text-foreground">EQAC</span>. In Guerneville, Coffee Bazaar has free WiFi and opens at 6am.
+                  The General Store and the firehouse both have free WiFi. Look for the network <span className="font-mono font-semibold text-foreground">EQAC</span>.
                 </p>
               </div>
             </div>

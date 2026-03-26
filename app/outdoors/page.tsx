@@ -87,6 +87,55 @@ export default function OutdoorsPage() {
           </p>
         </div>
 
+        {/* Useful Resources */}
+        <section>
+            <div className="mt-6 space-y-2">
+              <h3 className="text-xs font-mono uppercase tracking-widest text-muted">Useful Resources</h3>
+              <div className="flex flex-wrap gap-2">
+                <a
+                  href="https://www.alltrails.com/us/california/guerneville"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 bg-border/50 text-foreground text-xs font-medium px-3 py-2 rounded-lg hover:bg-border transition-colors"
+                >
+                  AllTrails: Guerneville Area &rarr;
+                </a>
+                <a
+                  href="https://stewardscr.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 bg-border/50 text-foreground text-xs font-medium px-3 py-2 rounded-lg hover:bg-border transition-colors"
+                >
+                  Stewards of the Coast &amp; Redwoods &rarr;
+                </a>
+                <a
+                  href="https://www.parks.ca.gov/?page_id=450"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 bg-border/50 text-foreground text-xs font-medium px-3 py-2 rounded-lg hover:bg-border transition-colors"
+                >
+                  Armstrong Redwoods (CA Parks) &rarr;
+                </a>
+                <a
+                  href="https://www.inaturalist.org/guides/4807"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 bg-border/50 text-foreground text-xs font-medium px-3 py-2 rounded-lg hover:bg-border transition-colors"
+                >
+                  Sonoma County Wildlife Guide &rarr;
+                </a>
+                <a
+                  href="https://www.landpaths.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 bg-border/50 text-foreground text-xs font-medium px-3 py-2 rounded-lg hover:bg-border transition-colors"
+                >
+                  LandPaths (free preserves) &rarr;
+                </a>
+              </div>
+            </div>
+        </section>
+
         {hikes.length > 0 && (
           <section>
             <h2 className="font-mono text-xs uppercase tracking-widest text-muted mb-4">

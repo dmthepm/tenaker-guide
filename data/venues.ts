@@ -1,7 +1,7 @@
 import { Venue } from "@/lib/types";
 
 export const venues: Venue[] = [
-  // ─── FOOD & DRINK ────────────────────────────────────────────
+    // ─── FOOD & DRINK ────────────────────────────────────────────
 
   {
     slug: "caz-general-store",
@@ -11,7 +11,7 @@ export const venues: Venue[] = [
     description:
       "The heart of Cazadero. Sandwiches, fresh-baked bread, breakfast burritos, and the local gathering spot.",
     devonNote:
-      "This is the community hub. Everyone ends up here. The fresh bread loaves are incredible and the hippie bowl is what Ashley orders every time.",
+      "This is the community hub. Everyone ends up here. The fresh bread loaves are incredible and the sandwiches are what everyone gets.",
     address: "6125 Cazadero Hwy, Cazadero, CA 95421",
     coordinates: { lat: 38.5335, lng: -123.0608 },
     phone: "(707) 632-5287",
@@ -22,7 +22,6 @@ export const venues: Venue[] = [
     tags: ["breakfast", "lunch", "coffee", "quick", "community"],
     highlights: [
       "Fresh bread loaves",
-      "Hippie bowl",
       "Sandwiches",
       "Breakfast burritos",
       "Free WiFi (network: EQAC)",
@@ -37,7 +36,7 @@ export const venues: Venue[] = [
     description:
       "Waterfront coffee shop on the Jenner Estuary where the Russian River meets the Pacific. Organic coffee, homemade pastries, and live music on weekends.",
     devonNote:
-      "The avocado toast here is my favorite. Focaccia bread is great too. The views are incredible. You're sitting right where the river meets the ocean. Great day-off spot, especially with the weekend live music.",
+      "The avocado toast is my favorite. Egg and avocado on their focaccia bread. They have great homemade pastries and good coffee too. The views are incredible, sitting right where the river meets the ocean.",
     address: "10439 Hwy 1, Jenner, CA 95450",
     coordinates: { lat: 38.4504, lng: -123.1069 },
     phone: "(707) 865-2251",
@@ -47,10 +46,10 @@ export const venues: Venue[] = [
     priceRange: "$",
     tags: ["coffee", "breakfast", "lunch", "ocean", "live-music", "day-off"],
     highlights: [
+      "Avocado toast on focaccia",
+      "Homemade pastries",
       "Estuary views",
       "Live music Sat & Sun",
-      "Organic coffee",
-      "Homemade pastries",
     ],
     cellService: false,
   },
@@ -77,6 +76,31 @@ export const venues: Venue[] = [
       "Sea Biscuit (smoked salmon)",
       "Biscuit & veggie gravy",
       "Mini Dutch pancakes",
+    ],
+    cellService: true,
+  },
+  {
+    slug: "altamont-general-store",
+    name: "Altamont General Store",
+    category: "food",
+    subcategory: "cafe",
+    description:
+      "Woman-owned coffee house, restaurant, and curated market in Occidental. Farm-fresh menu, natural wine, soft serve, and the hippie bowl Ashley swears by.",
+    devonNote:
+      "This is where Ashley gets her hippie bowl. Beautiful space in a historic building. The natural wine selection is solid and they do pop-up art events. Worth combining with a trip to Wild Flour Bread or Howard's.",
+    address: "3703 Main St, Occidental, CA 95465",
+    coordinates: { lat: 38.4088, lng: -122.9481 },
+    website: "https://altamontgeneralstore.com",
+    hours: "Mon 9am-4pm, Thu-Sat 9am-7:30pm, Sun 9am-4pm. Closed Tue-Wed.",
+    driveTime: "40 min",
+    priceRange: "$$",
+    tags: ["breakfast", "lunch", "coffee", "wine", "day-off", "hippie-bowl"],
+    highlights: [
+      "Hippie bowl (Ashley's pick)",
+      "Natural wine",
+      "Soft serve",
+      "Pop-up art events",
+      "Curated housewares",
     ],
     cellService: true,
   },
@@ -156,6 +180,30 @@ export const venues: Venue[] = [
     cellService: true,
   },
   {
+    slug: "lightwave-coffee",
+    name: "Lightwave Coffee & Kitchen",
+    category: "food",
+    subcategory: "cafe",
+    description:
+      "Breakfast and brunch cafe in Monte Rio's Creekside Park complex, right next to the skate park. Watch skaters from the deck while you eat.",
+    devonNote:
+      "Great little cafe right next to the skate park. Good food, good coffee, chill vibes. One of the closer breakfast spots to Cazadero.",
+    address: "9725 Main St, Monte Rio, CA 95462",
+    coordinates: { lat: 38.4642, lng: -122.9658 },
+    phone: "(707) 865-5169",
+    website: "https://lightwavecafe.square.site",
+    hours: "Wed-Sun 9am-3pm. Closed Mon-Tue.",
+    driveTime: "10 min",
+    priceRange: "$",
+    tags: ["breakfast", "lunch", "coffee", "casual"],
+    highlights: [
+      "Skate park views from deck",
+      "Full breakfast menu",
+      "Closest cafe to Cazadero",
+    ],
+    cellService: true,
+  },
+  {
     slug: "northwood-restaurant",
     name: "Northwood Restaurant & Bistro",
     category: "food",
@@ -177,6 +225,31 @@ export const venues: Venue[] = [
       "Full bar",
       "Covered deck",
       "Comfort food",
+    ],
+    cellService: true,
+  },
+  {
+    slug: "pats-international",
+    name: "Pat's International",
+    category: "food",
+    subcategory: "restaurant",
+    description:
+      "A Russian River tradition since 1940. Eclectic menu with Korean fried chicken, hippie bowls, strong vegan options. Breakfast and lunch.",
+    devonNote:
+      "I eat here all the time. The Korean fried chicken sandwich is excellent. Great vegan options too. A real local staple.",
+    address: "16236 Main St, Guerneville, CA 95446",
+    coordinates: { lat: 38.5015, lng: -122.9972 },
+    phone: "(707) 604-4007",
+    website: "https://patsinternational.com",
+    hours: "Mon-Tue 9am-3pm, Thu-Sun 9am-3pm. Closed Wed.",
+    driveTime: "20 min",
+    priceRange: "$$",
+    tags: ["breakfast", "lunch", "korean", "vegan", "local-favorite"],
+    highlights: [
+      "Korean fried chicken sandwich",
+      "Hippie bowls with Korean fried tofu",
+      "Kale Caesar salad",
+      "Vegan-friendly",
     ],
     cellService: true,
   },
@@ -203,32 +276,6 @@ export const venues: Venue[] = [
       "Walk-in only, no reservations",
     ],
     reservation: false,
-    cellService: true,
-  },
-  {
-    slug: "coffee-bazaar",
-    name: "Coffee Bazaar",
-    category: "food",
-    subcategory: "cafe",
-    description:
-      "Guerneville's anchor coffee shop since 1983. Organic single-origin coffees, pastries, breakfast burritos, and free WiFi. The crew work spot.",
-    devonNote:
-      "If you need WiFi and decent coffee, this is it. Opens at 6am, comfortable for hours. The primary work-from-coffee option.",
-    address: "14045 Armstrong Woods Rd, Guerneville, CA 95446",
-    coordinates: { lat: 38.5072, lng: -122.9917 },
-    phone: "(707) 869-9706",
-    website: "https://coffeebazaarcafe.com",
-    hours: "Mon-Thu 6am-5pm, Fri-Sat 6am-6pm, Sun 6am-5pm",
-    driveTime: "20 min",
-    priceRange: "$",
-    tags: ["coffee", "wifi", "breakfast", "lunch", "work"],
-    highlights: [
-      "Free WiFi",
-      "Opens 6am",
-      "Good for multi-hour work sessions",
-      "Organic coffee",
-      "Vegetarian options",
-    ],
     cellService: true,
   },
   {
@@ -326,24 +373,6 @@ export const venues: Venue[] = [
     cellService: true,
   },
   {
-    slug: "sebastopol-general-store",
-    name: "Sebastopol General Store",
-    category: "food",
-    subcategory: "cafe",
-    description:
-      "Health-forward cafe and market in downtown Sebastopol. Good smoothies and grab-and-go options.",
-    devonNote:
-      "Solid grab-and-go spot if you find yourself in Sebastopol. Good smoothies and healthy options.",
-    address: "6990 McKinley St, Sebastopol, CA 95472",
-    coordinates: { lat: 38.4023, lng: -122.8239 },
-    hours: "Daily 8am-6pm",
-    driveTime: "35 min",
-    priceRange: "$$",
-    tags: ["breakfast", "lunch", "healthy", "smoothies"],
-    highlights: ["Smoothies", "Organic groceries", "Grab-and-go"],
-    cellService: true,
-  },
-  {
     slug: "negris-occidental",
     name: "Negri's Italian Dinners",
     category: "food",
@@ -367,31 +396,6 @@ export const venues: Venue[] = [
     cellService: true,
   },
   {
-    slug: "altamont-general-store",
-    name: "Altamont General Store",
-    category: "food",
-    subcategory: "cafe",
-    description:
-      "Woman-owned coffee house, restaurant, and curated market in Occidental. Farm-fresh menu, natural wine, soft serve, and the hippie bowl Ashley swears by.",
-    devonNote:
-      "This is where Ashley gets her hippie bowl. Beautiful space in a historic building. The natural wine selection is solid and they do pop-up art events. Worth combining with a trip to Wild Flour Bread or Howard's.",
-    address: "3703 Main St, Occidental, CA 95465",
-    coordinates: { lat: 38.4088, lng: -122.9481 },
-    website: "https://altamontgeneralstore.com",
-    hours: "Mon 9am-4pm, Thu-Sat 9am-7:30pm, Sun 9am-4pm. Closed Tue-Wed.",
-    driveTime: "40 min",
-    priceRange: "$$",
-    tags: ["breakfast", "lunch", "coffee", "wine", "day-off", "hippie-bowl"],
-    highlights: [
-      "Hippie bowl (Ashley's pick)",
-      "Natural wine",
-      "Soft serve",
-      "Pop-up art events",
-      "Curated housewares",
-    ],
-    cellService: true,
-  },
-  {
     slug: "rio-theater",
     name: "Rio Theater",
     category: "food",
@@ -407,104 +411,6 @@ export const venues: Venue[] = [
     priceRange: "$",
     tags: ["entertainment", "evening", "day-off"],
     highlights: ["Indie films", "Bar in the theater", "Classic movie nights"],
-    cellService: true,
-  },
-  {
-    slug: "lightwave-coffee",
-    name: "Lightwave Coffee & Kitchen",
-    category: "food",
-    subcategory: "cafe",
-    description:
-      "Breakfast and brunch cafe in Monte Rio's Creekside Park complex, right next to the skate park. Watch skaters from the deck while you eat.",
-    devonNote:
-      "Great little cafe right next to the skate park. Good food, good coffee, chill vibes. One of the closer breakfast spots to Cazadero.",
-    address: "9725 Main St, Monte Rio, CA 95462",
-    coordinates: { lat: 38.4642, lng: -122.9658 },
-    phone: "(707) 865-5169",
-    website: "https://lightwavecafe.square.site",
-    hours: "Wed-Sun 9am-3pm. Closed Mon-Tue.",
-    driveTime: "10 min",
-    priceRange: "$",
-    tags: ["breakfast", "lunch", "coffee", "casual"],
-    highlights: [
-      "Skate park views from deck",
-      "Full breakfast menu",
-      "Closest cafe to Cazadero",
-    ],
-    cellService: true,
-  },
-  {
-    slug: "pats-international",
-    name: "Pat's International",
-    category: "food",
-    subcategory: "restaurant",
-    description:
-      "A Russian River tradition since 1940. Eclectic menu with Korean fried chicken, hippie bowls, strong vegan options. Breakfast and lunch.",
-    devonNote:
-      "I eat here all the time. The Korean fried chicken sandwich is excellent. Great vegan options too. A real local staple.",
-    address: "16236 Main St, Guerneville, CA 95446",
-    coordinates: { lat: 38.5015, lng: -122.9972 },
-    phone: "(707) 604-4007",
-    website: "https://patsinternational.com",
-    hours: "Mon-Tue 9am-3pm, Thu-Sun 9am-3pm. Closed Wed.",
-    driveTime: "20 min",
-    priceRange: "$$",
-    tags: ["breakfast", "lunch", "korean", "vegan", "local-favorite"],
-    highlights: [
-      "Korean fried chicken sandwich",
-      "Hippie bowls with Korean fried tofu",
-      "Kale Caesar salad",
-      "Vegan-friendly",
-    ],
-    cellService: true,
-  },
-  {
-    slug: "retrograde-coffee",
-    name: "Retrograde Coffee Roasters",
-    category: "food",
-    subcategory: "cafe",
-    description:
-      "Specialty coffee roastery and cafe in downtown Sebastopol. In-house roasted beans, full food menu. Same building as Many Rivers Books.",
-    devonNote:
-      "Best coffee I've found in the county. Worth the drive to Sebastopol. While you're there, pop next door to Many Rivers bookstore.",
-    address: "130 S Main St, Suite 103, Sebastopol, CA 95472",
-    coordinates: { lat: 38.4023, lng: -122.8239 },
-    phone: "(707) 827-8065",
-    website: "https://retrograderoasters.com",
-    hours: "Mon-Fri 7am-5pm, Sat-Sun 7am-4pm. Kitchen closes 3pm.",
-    driveTime: "45 min",
-    priceRange: "$$",
-    tags: ["coffee", "breakfast", "lunch", "best-coffee"],
-    highlights: [
-      "Best coffee in Sonoma County",
-      "In-house roasted beans",
-      "Vegan + GF options",
-      "Next door to Many Rivers Books",
-    ],
-    cellService: true,
-  },
-  {
-    slug: "americana-sebastopol",
-    name: "Americana",
-    category: "food",
-    subcategory: "restaurant",
-    description:
-      "Farm-to-table breakfast and brunch in Sebastopol. Won Best Breakfast in Sonoma County two years running (2024, 2025).",
-    devonNote:
-      "Really good breakfast spot in Sebastopol. The awards are deserved.",
-    address: "162 N Main St, Sebastopol, CA 95472",
-    coordinates: { lat: 38.4030, lng: -122.8239 },
-    phone: "(707) 827-3309",
-    website: "https://americanasonomacounty.com",
-    hours: "Mon 8am-2pm, Thu 8am-2pm, Fri-Sun 8am-3pm. Closed Tue-Wed.",
-    driveTime: "45 min",
-    priceRange: "$$",
-    tags: ["breakfast", "brunch", "day-off", "award-winning"],
-    highlights: [
-      "Best Breakfast, North Bay Bohemian 2024 & 2025",
-      "Farm-to-table",
-      "Bottomless mimosas",
-    ],
     cellService: true,
   },
   {
@@ -581,8 +487,83 @@ export const venues: Venue[] = [
     reservation: true,
     cellService: false,
   },
-
+  {
+    slug: "americana-sebastopol",
+    name: "Americana",
+    category: "food",
+    subcategory: "restaurant",
+    description:
+      "Farm-to-table breakfast and brunch in Sebastopol. Won Best Breakfast in Sonoma County two years running (2024, 2025).",
+    devonNote:
+      "Really good breakfast spot in Sebastopol. The awards are deserved.",
+    address: "162 N Main St, Sebastopol, CA 95472",
+    coordinates: { lat: 38.4030, lng: -122.8239 },
+    phone: "(707) 827-3309",
+    website: "https://americanasonomacounty.com",
+    hours: "Mon 8am-2pm, Thu 8am-2pm, Fri-Sun 8am-3pm. Closed Tue-Wed.",
+    driveTime: "45 min",
+    priceRange: "$$",
+    tags: ["breakfast", "brunch", "day-off", "award-winning"],
+    highlights: [
+      "Best Breakfast, North Bay Bohemian 2024 & 2025",
+      "Farm-to-table",
+      "Bottomless mimosas",
+    ],
+    cellService: true,
+  },
+  {
+    slug: "retrograde-coffee",
+    name: "Retrograde Coffee Roasters",
+    category: "food",
+    subcategory: "cafe",
+    description:
+      "Specialty coffee roastery and cafe in downtown Sebastopol. In-house roasted beans, full food menu. Same building as Many Rivers Books.",
+    devonNote:
+      "Best coffee I've found in the county. Worth the drive to Sebastopol. While you're there, pop next door to Many Rivers bookstore.",
+    address: "130 S Main St, Suite 103, Sebastopol, CA 95472",
+    coordinates: { lat: 38.4023, lng: -122.8239 },
+    phone: "(707) 827-8065",
+    website: "https://retrograderoasters.com",
+    hours: "Mon-Fri 7am-5pm, Sat-Sun 7am-4pm. Kitchen closes 3pm.",
+    driveTime: "45 min",
+    priceRange: "$$",
+    tags: ["coffee", "breakfast", "lunch", "best-coffee"],
+    highlights: [
+      "Best coffee in Sonoma County",
+      "In-house roasted beans",
+      "Vegan + GF options",
+      "Next door to Many Rivers Books",
+    ],
+    cellService: true,
+  },
+  {
+    slug: "coffee-bazaar",
+    name: "Coffee Bazaar",
+    category: "food",
+    subcategory: "cafe",
+    description:
+      "Guerneville's anchor coffee shop since 1983. Organic single-origin coffees, pastries, breakfast burritos, and free WiFi. The crew work spot.",
+    devonNote:
+      "If you need WiFi and decent coffee, this is it. Opens at 6am, comfortable for hours. The primary work-from-coffee option.",
+    address: "14045 Armstrong Woods Rd, Guerneville, CA 95446",
+    coordinates: { lat: 38.5072, lng: -122.9917 },
+    phone: "(707) 869-9706",
+    website: "https://coffeebazaarcafe.com",
+    hours: "Mon-Thu 6am-5pm, Fri-Sat 6am-6pm, Sun 6am-5pm",
+    driveTime: "20 min",
+    priceRange: "$",
+    tags: ["coffee", "wifi", "breakfast", "lunch", "work"],
+    highlights: [
+      "Free WiFi",
+      "Opens 6am",
+      "Good for multi-hour work sessions",
+      "Organic coffee",
+      "Vegetarian options",
+    ],
+    cellService: true,
+  },
   // ─── WELLNESS ────────────────────────────────────────────────
+
 
   {
     slug: "osmosis",
@@ -666,7 +647,8 @@ export const venues: Venue[] = [
     cellService: true,
   },
 
-  // ─── OUTDOORS ────────────────────────────────────────────────
+    // ─── OUTDOORS ────────────────────────────────────────────────
+
 
   {
     slug: "armstrong-redwoods",
@@ -973,18 +955,19 @@ export const venues: Venue[] = [
     cellService: false,
   },
 
-  // ─── ESSENTIALS ──────────────────────────────────────────────
+    // ─── ESSENTIALS ──────────────────────────────────────────────
 
   {
-    slug: "lamberts-76",
-    name: "Lambert's 76",
+    slug: "chevron-guerneville",
+    name: "Chevron Guerneville",
     category: "essentials",
     subcategory: "gas",
     description:
-      "Full-service 76 station in Guerneville. Fill up here before heading to Cazadero. There is no gas in Caz.",
+      "Gas station in Guerneville. Fill up here before heading to Cazadero. There is no gas in Caz.",
+    devonNote:
+      "I usually fill up here. It's on the way.",
     address: "16383 Main St, Guerneville, CA 95446",
     coordinates: { lat: 38.5018, lng: -122.9965 },
-    phone: "(707) 869-2051",
     hours: "Mon-Sat 6am-10pm, Sun 7am-10pm",
     driveTime: "20 min",
     tags: ["gas", "essentials"],
@@ -996,12 +979,32 @@ export const venues: Venue[] = [
     cellService: true,
   },
   {
+    slug: "jenner-sea-store",
+    name: "Jenner Sea Store",
+    category: "essentials",
+    subcategory: "gas",
+    description:
+      "Small general store in Jenner with gas pumps. The only gas on the coast between Bodega Bay and Fort Bragg.",
+    devonNote:
+      "There's also gas in Jenner if you're heading up or down the coast.",
+    address: "10439 CA-1, Jenner, CA 95450",
+    coordinates: { lat: 38.4504, lng: -123.1069 },
+    hours: "Daily 9am-6pm",
+    driveTime: "25 min",
+    tags: ["gas", "essentials"],
+    highlights: [
+      "Only gas on the coast",
+      "Small general store",
+    ],
+    cellService: false,
+  },
+  {
     slug: "guerneville-safeway",
     name: "Safeway, Guerneville",
     category: "essentials",
     subcategory: "grocery",
     description:
-      "Full-size grocery store in Guerneville. The closest real grocery run from Cazadero.",
+      "Full-size grocery store in Guerneville. The closest real grocery run from Cazadero. Like Ralph's in LA but fewer options.",
     address: "16405 Hwy 116, Guerneville, CA 95446",
     coordinates: { lat: 38.5027, lng: -122.9947 },
     phone: "(707) 869-9433",
@@ -1015,6 +1018,48 @@ export const venues: Venue[] = [
       "Wells Fargo ATM",
       "Starbucks inside",
       "DriveUp & Go pickup",
+    ],
+    cellService: true,
+  },
+  {
+    slug: "andys-produce",
+    name: "Andy's Produce Market",
+    category: "essentials",
+    subcategory: "grocery",
+    description:
+      "Higher quality produce market in Sebastopol. Better selection than Safeway for fresh fruits and vegetables.",
+    devonNote:
+      "If you want better produce than Safeway, Andy's is worth the drive to Sebastopol. Much higher quality.",
+    address: "1691 Gravenstein Hwy N, Sebastopol, CA 95472",
+    coordinates: { lat: 38.4200, lng: -122.8300 },
+    hours: "Daily 8am-7pm",
+    driveTime: "40 min",
+    tags: ["grocery", "produce", "essentials"],
+    highlights: [
+      "Higher quality produce than Safeway",
+      "Local and organic options",
+      "Worth the drive for quality",
+    ],
+    cellService: true,
+  },
+  {
+    slug: "bohemian-market",
+    name: "Bohemian Market",
+    category: "essentials",
+    subcategory: "grocery",
+    description:
+      "Small grocery and market in the heart of Occidental. Good stuff but prices run a bit high.",
+    devonNote:
+      "Small but good selection. Prices are a bit high, but it's convenient if you're already in Occidental.",
+    address: "3691 Main St, Occidental, CA 95465",
+    coordinates: { lat: 38.4088, lng: -122.9481 },
+    hours: "Daily 8am-8pm",
+    driveTime: "40 min",
+    tags: ["grocery", "essentials"],
+    highlights: [
+      "Good quality for a small market",
+      "Convenient if in Occidental",
+      "Prices run a bit high",
     ],
     cellService: true,
   },
