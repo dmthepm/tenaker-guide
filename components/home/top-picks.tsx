@@ -1,12 +1,16 @@
+import Link from "next/link";
 import { venues } from "@/data/venues";
 import { VenueCard } from "@/components/ui/venue-card";
 
 const topPickSlugs = [
   "caz-general-store",
   "wild-flour-bread",
-  "osmosis",
+  "piknik",
+  "altamont-general-store",
   "armstrong-redwoods",
+  "jenner-headlands",
   "goat-rock",
+  "osmosis",
 ];
 
 export function TopPicks() {
@@ -20,7 +24,7 @@ export function TopPicks() {
         Devon&apos;s Top Picks
       </h2>
       <p className="text-sm text-muted mb-5">
-        If you only do five things while you&apos;re here, make it these.
+        If I had to pick a handful of things, these are it.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {picks.map(
@@ -30,6 +34,26 @@ export function TopPicks() {
             </div>
           )
         )}
+      </div>
+      <div className="mt-6 flex flex-wrap gap-4">
+        <Link
+          href="/food"
+          className="text-sm font-medium text-accent hover:text-accent-hover transition-colors"
+        >
+          All food &amp; drink &rarr;
+        </Link>
+        <Link
+          href="/outdoors"
+          className="text-sm font-medium text-accent hover:text-accent-hover transition-colors"
+        >
+          All outdoors &rarr;
+        </Link>
+        <Link
+          href="/wellness"
+          className="text-sm font-medium text-accent hover:text-accent-hover transition-colors"
+        >
+          All wellness &rarr;
+        </Link>
       </div>
     </section>
   );
