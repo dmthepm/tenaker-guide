@@ -918,6 +918,32 @@ export const venues: Venue[] = [
     cellService: false,
   },
 
+  {
+    slug: "landpaths-grove",
+    name: "LandPaths — Grove of Old Trees",
+    category: "outdoors",
+    subcategory: "hike",
+    description:
+      "Free, walk-in old-growth redwood preserve west of Occidental. 48 acres of ancient trees, no reservation needed. LandPaths also runs guided hikes at their 1,000-acre Bohemia Preserve nearby.",
+    devonNote:
+      "LandPaths does incredible work opening land to the public. The Grove of Old Trees is free and you can just show up. For something more guided, check their Bohemia Preserve hikes — they fill up, so sign up early at landpaths.org.",
+    address: "17599 Fitzpatrick Ln, Occidental, CA 95465",
+    coordinates: { lat: 38.4095, lng: -122.9580 },
+    website: "https://landpaths.org",
+    phone: "(707) 544-7284",
+    hours: "Dawn to dusk. Free, no reservation needed.",
+    driveTime: "40 min",
+    priceRange: "$",
+    tags: ["hike", "redwoods", "free", "old-growth", "day-off", "nature"],
+    highlights: [
+      "Free — no reservation needed",
+      "Old-growth redwoods",
+      "48 acres, walk-in access",
+      "Bohemia Preserve guided hikes (1,000 acres, sign up at landpaths.org)",
+    ],
+    cellService: false,
+  },
+
   // ─── ESSENTIALS ──────────────────────────────────────────────
 
   {
