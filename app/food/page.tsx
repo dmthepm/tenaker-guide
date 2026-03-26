@@ -4,7 +4,7 @@ import { VenueCard } from "@/components/ui/venue-card";
 import { Footer } from "@/components/layout/footer";
 
 export const metadata = {
-  title: "Food & Drink — Ten Aker Wood Guide",
+  title: "Food & Drink - Ten Aker Wood Guide",
 };
 
 export default function FoodPage() {

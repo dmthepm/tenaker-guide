@@ -91,14 +91,14 @@ export default function Home() {
             A Note About the Locals
           </h2>
           <p className="text-sm text-sage-dark leading-relaxed mt-2">
-            The people who live in Cazadero are wonderful &mdash; but many are reclusive
-            and not used to the level of activity a film production brings. People ride
-            their dirt bikes and horses to the General Store here. We&apos;re a bit stuck in
+            Most of the people out here are wonderful, but many are reclusive.
+            They&apos;re not used to the level of activity a film production brings. People ride
+            dirt bikes and horses to the General Store. We&apos;re a bit stuck in
             a different time, and that&apos;s by choice.
           </p>
           <p className="text-sm text-sage-dark leading-relaxed mt-2">
-            Be friendly and easygoing. Give people respect and space. They&apos;ll likely be
-            engaging and interested in what you&apos;re doing &mdash; just don&apos;t overwhelm them.
+            I&apos;ve found that a little patience and respect goes a long way. Most folks
+            will warm up to you and be genuinely interested in what you&apos;re doing.
           </p>
         </div>
       </section>

@@ -12,7 +12,7 @@ export const emergencyContacts: EmergencyContact[] = [
     phone: "(707) 525-5300",
     address: "1165 Montgomery Dr, Santa Rosa, CA 95405",
     description:
-      "Closest emergency room — Level II Trauma Center. 24/7 ER. For serious injuries or medical emergencies, this is the destination.",
+      "Closest emergency room. Level II Trauma Center with 24/7 ER. For serious injuries or medical emergencies, this is the destination.",
     driveTime: "50 min",
   },
   {
@@ -77,32 +77,32 @@ export const safetyTips = [
   {
     title: "Poison Oak",
     content:
-      "It grows EVERYWHERE in Sonoma County. \"Leaves of three, let it be.\" Within 10 minutes of contact, 50% of the oil can still be removed by washing. Within 15 minutes, only 25%. After 30 minutes, the oil has absorbed and a reaction is likely. Keep Tecnu on set — it's available at Lark Drugs in Guerneville.",
+      "It grows everywhere out here. Leaves of three, let it be. Within 10 minutes of contact, 50% of the oil can still be removed by washing. Within 15 minutes, only 25%. After 30 minutes, the oil has absorbed and a reaction is likely. Keep Tecnu on set. It's available at Lark Drugs in Guerneville.",
   },
   {
     title: "Ticks",
     content:
-      "A February 2026 report found 7.41% of ticks tested positive for Lyme disease on Sonoma County trails. Check your body after every outdoor activity. Wear light-colored long pants. Treat clothing with permethrin spray. Remove ticks with fine-tipped tweezers pulling straight up — infection requires 24-48 hours of attachment, so early removal prevents disease.",
+      "A February 2026 report found 7.41% of ticks tested positive for Lyme disease on Sonoma County trails. Check your body after every outdoor activity. Wear light-colored long pants. Treat clothing with permethrin spray. Remove ticks with fine-tipped tweezers pulling straight up. Infection requires 24-48 hours of attachment, so early removal prevents disease.",
   },
   {
     title: "Mountain Lions",
     content:
-      "~75 estimated in Sonoma County. No recorded attacks in Sonoma County parks. If you see one: do NOT run. Face it, make yourself look big, speak loudly, back away slowly. They are almost never aggressive toward adults.",
+      "About 75 estimated in Sonoma County. No recorded attacks in Sonoma County parks. If you see one, do not run. Face it, make yourself look big, speak loudly, and back away slowly. They are almost never aggressive toward adults.",
   },
   {
     title: "Rattlesnakes",
     content:
-      "Northern Pacific rattlesnakes live in the area, active on Austin Creek Road near Cazadero. Watch where you step, especially on warm rocks and sunny trails. If bitten: stay calm, do NOT apply a tourniquet, get to a hospital.",
+      "Northern Pacific rattlesnakes live in the area, active on Austin Creek Road near Cazadero. Watch where you step, especially on warm rocks and sunny trails. If bitten, stay calm, do not apply a tourniquet, and get to a hospital.",
   },
   {
     title: "Ocean Safety",
     content:
-      "The Sonoma Coast has extremely dangerous currents and sneaker waves. NEVER turn your back on the ocean. Do NOT swim at Goat Rock, Shell Beach, or other open coast beaches. People die here every year. Admire from a safe distance.",
+      "The Sonoma Coast has extremely dangerous currents and sneaker waves. Never turn your back on the ocean. Do not swim at Goat Rock, Shell Beach, or other open coast beaches. People die here every year. Admire from a safe distance.",
   },
   {
     title: "Fire Evacuation",
     content:
-      "Cazadero has ONE road in and out. In evacuation: Cazadero Hwy → Hwy 116 → Guerneville → Hwy 101. Do NOT attempt mountain roads in smoke. Sign up BEFORE you arrive: SoCoAlert (socoemergency.org/get-ready/sign-up), Nixle (text ZIP code 95421 to 888777), PG&E PSPS alerts (pge.com/psps).",
+      "Cazadero has one road in and out. In an evacuation: Cazadero Hwy to Hwy 116 to Guerneville to Hwy 101. Mountain roads in smoke are not an option. Best to sign up before you arrive: SoCoAlert (socoemergency.org/get-ready/sign-up), Nixle (text ZIP code 95421 to 888777), PG&E PSPS alerts (pge.com/psps).",
   },
   {
     title: "Road Safety",
@@ -117,11 +117,11 @@ export const safetyTips = [
   {
     title: "No Gas",
     content:
-      "There is no gas station in Cazadero. Nearest: Lambert's 76 in Guerneville (21 min). Fill up EVERY time you pass through Guerneville.",
+      "There is no gas station in Cazadero. Nearest is Lambert's 76 in Guerneville (21 min). I've learned to fill up every time I pass through Guerneville.",
   },
   {
     title: "No Nearby ER",
     content:
-      "Palm Drive Hospital in Sebastopol has been CLOSED since 2014. The nearest ER is Santa Rosa Memorial Hospital — 50 minutes away. For non-emergencies, Russian River Health Center in Guerneville (20 min) sees walk-ins.",
+      "Palm Drive Hospital in Sebastopol has been closed since 2014. The nearest ER is Santa Rosa Memorial Hospital, 50 minutes away. For non-emergencies, Russian River Health Center in Guerneville (20 min) sees walk-ins.",
   },
 ];

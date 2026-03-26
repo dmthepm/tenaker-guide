@@ -4,7 +4,7 @@ import { VenueCard } from "@/components/ui/venue-card";
 import { Footer } from "@/components/layout/footer";
 
 export const metadata = {
-  title: "Outdoors — Ten Aker Wood Guide",
+  title: "Outdoors - Ten Aker Wood Guide",
 };
 
 export default function OutdoorsPage() {
@@ -43,7 +43,7 @@ export default function OutdoorsPage() {
               </p>
               <ul className="mt-2 text-xs text-muted space-y-1.5 list-disc list-inside">
                 <li>Up to 10 inches long, bright yellow, completely harmless</li>
-                <li>Most active on cool, damp mornings &mdash; April is prime season</li>
+                <li>Most active on cool, damp mornings. April is prime season</li>
                 <li>Best spotted on forest trails after rain</li>
                 <li>The slime rule: dry your hand first, then wipe. Water makes it worse and spread.</li>
               </ul>
@@ -56,7 +56,7 @@ export default function OutdoorsPage() {
               </h3>
               <ul className="mt-2 text-xs text-muted space-y-1.5 list-disc list-inside">
                 <li>Coast redwoods are the tallest trees on Earth</li>
-                <li>The bark is spongy and fire-resistant &mdash; feels like thick cork</li>
+                <li>The bark is spongy and fire-resistant. Feels like thick cork</li>
                 <li>Understory: sword ferns, bay laurel, redwood sorrel (leaves fold in sunlight)</li>
               </ul>
             </div>
@@ -81,7 +81,7 @@ export default function OutdoorsPage() {
         <div className="bg-sage/30 rounded-xl px-5 py-4 border border-sage/50">
           <p className="text-sm text-sage-dark leading-relaxed">
             <span className="font-semibold">Devon:</span> The creeks here are beautiful.
-            People are welcome to come hang at our creek &mdash; we&apos;ll try to do a few
+            You&apos;re welcome to come hang at our creek. We&apos;ll try to do a few
             creek days on weekends if the weather is good. Ask me on set and I&apos;ll show
             you the best spots.
           </p>

@@ -55,7 +55,7 @@ export function Hero() {
         className="mt-6 bg-sage/30 rounded-xl px-5 py-4 border border-sage/50 max-w-lg"
       >
         <p className="text-sm text-sage-dark leading-relaxed">
-          <span className="font-semibold">From Devon —</span> I have lived up
+          <span className="font-semibold">From Devon.</span> I&apos;ve lived up
           here for 7 years. This guide is everything I wish someone had handed
           me when I first arrived. If something is missing or wrong, find me on
           set or in the group chat.

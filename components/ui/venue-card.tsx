@@ -108,33 +108,39 @@ export function VenueCard({ venue }: VenueCardProps) {
         </div>
       </div>
 
-      {/* Action buttons */}
-      <div className="mt-4 flex flex-wrap gap-2">
+      {/* Action buttons: icon-only on mobile, icon+label on sm+ */}
+      <div className="mt-4 flex flex-wrap gap-1.5 sm:gap-2">
         <a
           href={getGoogleMapsUrl(venue)}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1.5 bg-accent text-white text-xs sm:text-sm font-medium px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl transition-colors hover:bg-accent-hover active:scale-[0.98]"
+          title="Open in Google Maps"
+          className="flex items-center justify-center gap-1.5 bg-accent text-white font-medium p-2.5 sm:px-4 sm:py-2.5 rounded-xl transition-colors hover:bg-accent-hover active:scale-[0.98]"
         >
-          <MapTrifold size={14} weight="fill" />
-          Map
+          <MapTrifold size={18} weight="fill" className="sm:hidden" />
+          <MapTrifold size={16} weight="fill" className="hidden sm:block" />
+          <span className="hidden sm:inline text-sm">Map</span>
         </a>
         <a
           href={getGoogleDirectionsUrl(venue)}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1.5 bg-border/50 text-foreground text-xs sm:text-sm font-medium px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl transition-colors hover:bg-border active:scale-[0.98]"
+          title="Get directions"
+          className="flex items-center justify-center gap-1.5 bg-border/50 text-foreground font-medium p-2.5 sm:px-4 sm:py-2.5 rounded-xl transition-colors hover:bg-border active:scale-[0.98]"
         >
-          <NavigationArrow size={14} weight="fill" />
-          Directions
+          <NavigationArrow size={18} weight="fill" className="sm:hidden" />
+          <NavigationArrow size={16} weight="fill" className="hidden sm:block" />
+          <span className="hidden sm:inline text-sm">Directions</span>
         </a>
         {venue.phone && (
           <a
             href={`tel:${venue.phone}`}
-            className="flex items-center gap-1.5 bg-border/50 text-foreground text-xs sm:text-sm font-medium px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl transition-colors hover:bg-border active:scale-[0.98]"
+            title="Call"
+            className="flex items-center justify-center gap-1.5 bg-border/50 text-foreground font-medium p-2.5 sm:px-4 sm:py-2.5 rounded-xl transition-colors hover:bg-border active:scale-[0.98]"
           >
-            <Phone size={14} />
-            Call
+            <Phone size={18} className="sm:hidden" />
+            <Phone size={16} className="hidden sm:block" />
+            <span className="hidden sm:inline text-sm">Call</span>
           </a>
         )}
         {venue.website && (
@@ -142,10 +148,12 @@ export function VenueCard({ venue }: VenueCardProps) {
             href={venue.website}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1.5 bg-border/50 text-foreground text-xs sm:text-sm font-medium px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl transition-colors hover:bg-border active:scale-[0.98]"
+            title="Visit website"
+            className="flex items-center justify-center gap-1.5 bg-border/50 text-foreground font-medium p-2.5 sm:px-4 sm:py-2.5 rounded-xl transition-colors hover:bg-border active:scale-[0.98]"
           >
-            <ArrowSquareOut size={14} />
-            Website
+            <ArrowSquareOut size={18} className="sm:hidden" />
+            <ArrowSquareOut size={16} className="hidden sm:block" />
+            <span className="hidden sm:inline text-sm">Website</span>
           </a>
         )}
       </div>

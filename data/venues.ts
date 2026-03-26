@@ -37,7 +37,7 @@ export const venues: Venue[] = [
     description:
       "Waterfront coffee shop on the Jenner Estuary where the Russian River meets the Pacific. Organic coffee, homemade pastries, and live music on weekends.",
     devonNote:
-      "The views here are incredible — you're literally sitting where the river meets the ocean. Great day-off spot, especially with the weekend live music.",
+      "The views here are incredible. You're sitting right where the river meets the ocean. Great day-off spot, especially with the weekend live music.",
     address: "10439 Hwy 1, Jenner, CA 95450",
     coordinates: { lat: 38.4504, lng: -123.1069 },
     phone: "(707) 865-2251",
@@ -62,7 +62,7 @@ export const venues: Venue[] = [
     description:
       "The famous biscuit spot, formerly Big Bottom Market. Their biscuit mix was named one of Oprah's Favorite Things in 2016. Same recipe, new name.",
     devonNote:
-      "The savory biscuit is the move — it's what used to be called 'The Sneaky.' Same Grandma Steiner recipe that got Oprah's attention. Closed Tuesdays.",
+      "The savory biscuit is the move. It used to be called 'The Sneaky.' Same Grandma Steiner recipe that got Oprah's attention. Closed Tuesdays.",
     address: "16228 Main St, Guerneville, CA 95446",
     coordinates: { lat: 38.5015, lng: -122.9972 },
     phone: "(707) 604-7295",
@@ -88,12 +88,12 @@ export const venues: Venue[] = [
     description:
       "Classic breakfast and brunch landmark on the Bohemian Highway in Occidental. Juice bar, bakery, locomotive-themed decor.",
     devonNote:
-      "Worth the drive for a day off. Under new ownership as of early 2026 — call ahead to confirm hours, but the food has always been great here.",
+      "Worth the drive on a day off. New ownership as of early 2026, so call ahead to confirm hours. The food has always been great here.",
     address: "3611 Bohemian Hwy, Occidental, CA 95465",
     coordinates: { lat: 38.4095, lng: -122.9475 },
     phone: "(707) 874-2838",
     website: "https://howardstationcafe.com",
-    hours: "Daily 7:30am-3pm (new ownership — call to confirm)",
+    hours: "Daily 7:30am-3pm (new ownership, call to confirm)",
     driveTime: "40 min",
     priceRange: "$$",
     tags: ["breakfast", "lunch", "brunch", "day-off"],
@@ -163,7 +163,7 @@ export const venues: Venue[] = [
     description:
       "American comfort food with a full bar in Monte Rio, next to the historic Northwood Golf Course. The closest sit-down restaurant to Cazadero.",
     devonNote:
-      "This is your quick dinner option — 10 minutes away. Nothing fancy but solid food, full bar, covered deck.",
+      "This is the quick dinner option. Ten minutes away. Nothing fancy but solid food, full bar, covered deck.",
     address: "19400 Hwy 116, Monte Rio, CA 95462",
     coordinates: { lat: 38.4642, lng: -122.9658 },
     phone: "(707) 865-2454",
@@ -188,7 +188,7 @@ export const venues: Venue[] = [
     description:
       "Farm-to-table California bistro from Chef Crista Luedtke (same founder as Big Bottom Market/Piknik). Seasonal, locally sourced. Dinner only, no reservations.",
     devonNote:
-      "The definitive nice dinner in Guerneville. Go early or expect a wait — they don't take reservations.",
+      "The definitive nice dinner in Guerneville. Go early or expect a wait. They don't take reservations.",
     address: "16248 Main St, Guerneville, CA 95446",
     coordinates: { lat: 38.5017, lng: -122.9968 },
     phone: "(707) 869-0780",
@@ -239,7 +239,7 @@ export const venues: Venue[] = [
     description:
       "Fine dining perched on a bluff overlooking the Russian River entering the Pacific. Seasonal seafood menu. Sunset views are extraordinary.",
     devonNote:
-      "This is the special-occasion spot. Wrap party dinner material. Reservations required — book through Resy.",
+      "This is the special-occasion spot. Wrap party dinner material. Reservations required, book through Resy.",
     address: "11048 CA-1, Jenner, CA 95450",
     coordinates: { lat: 38.4504, lng: -123.1069 },
     phone: "(707) 865-2484",
@@ -307,7 +307,7 @@ export const venues: Venue[] = [
     description:
       "Historic California sparkling wine estate founded in 1882. Tours, tastings, rose garden, and an on-site deli. On the way to Guerneville.",
     devonNote:
-      "Right on the route from Caz to Guerneville — stop in on a day off. Free tastings with tour. Beautiful grounds.",
+      "Right on the route from Caz to Guerneville. Stop in on a day off. Free tastings with tour. Beautiful grounds.",
     address: "13250 River Rd, Guerneville, CA 95446",
     coordinates: { lat: 38.4748, lng: -122.9419 },
     phone: "(707) 824-7000",
@@ -377,7 +377,7 @@ export const venues: Venue[] = [
     coordinates: { lat: 38.4642, lng: -122.9658 },
     phone: "(707) 865-0913",
     website: "https://riotheatre.com",
-    hours: "Check schedule — showtimes vary",
+    hours: "Check schedule, showtimes vary",
     driveTime: "15 min",
     priceRange: "$",
     tags: ["entertainment", "evening", "day-off"],
@@ -441,7 +441,7 @@ export const venues: Venue[] = [
     description:
       "Specialty coffee roastery and cafe in downtown Sebastopol. In-house roasted beans, full food menu. Same building as Many Rivers Books.",
     devonNote:
-      "The best coffee in Sonoma County. Period. Worth the drive to Sebastopol. While you're there, pop next door to Many Rivers bookstore.",
+      "Best coffee I've found in the county. Worth the drive to Sebastopol. While you're there, pop next door to Many Rivers bookstore.",
     address: "130 S Main St, Suite 103, Sebastopol, CA 95472",
     coordinates: { lat: 38.4023, lng: -122.8239 },
     phone: "(707) 827-8065",
@@ -476,7 +476,7 @@ export const venues: Venue[] = [
     priceRange: "$$",
     tags: ["breakfast", "brunch", "day-off", "award-winning"],
     highlights: [
-      "Best Breakfast — North Bay Bohemian 2024 & 2025",
+      "Best Breakfast, North Bay Bohemian 2024 & 2025",
       "Farm-to-table",
       "Bottomless mimosas",
     ],
@@ -537,7 +537,7 @@ export const venues: Venue[] = [
     description:
       "Farm-to-table restaurant at Timber Cove Resort on the coast. High-end breakfast, lunch, and dinner with ocean views. Beach access, hiking, and a 93-foot peace monument on the grounds.",
     devonNote:
-      "Make a full day out of this one spot. Get breakfast and coffee, then hike down to the beach — there's a beautiful stream flowing into the ocean and tide pools. The Bufano peace monument on the cliff is wild — 93 feet tall, built during the Cuban Missile Crisis.",
+      "Make a full day out of this one spot. Get breakfast and coffee, then hike down to the beach. There's a beautiful stream flowing into the ocean and tide pools. The Bufano peace monument on the cliff is wild. 93 feet tall, built during the Cuban Missile Crisis.",
     address: "21780 Coast Hwy, Jenner, CA 95450",
     coordinates: { lat: 38.5400, lng: -123.2700 },
     phone: "(707) 847-3231",
@@ -567,7 +567,7 @@ export const venues: Venue[] = [
     description:
       "The only cedar enzyme bath in North America. A Japanese meditation garden, massage treatments, and field of hammocks on 5 acres in Freestone.",
     devonNote:
-      "There is nothing else like this. The enzyme bath is warm cedar fiber that heats from natural fermentation. Pair it with a massage and walk the garden. Next door to Wild Flour Bread — do both on the same morning.",
+      "There is nothing else like this. The enzyme bath is warm cedar fiber that heats from natural fermentation. Pair it with a massage and walk the garden. Wild Flour Bread is right across the road, so you can do both in one morning.",
     address: "209 Bohemian Hwy, Freestone, CA 95472",
     coordinates: { lat: 38.3992, lng: -122.9178 },
     phone: "(707) 823-8231",
@@ -619,9 +619,9 @@ export const venues: Venue[] = [
     category: "wellness",
     subcategory: "massage",
     description:
-      "Traditional Thai bodywork studio in Sebastopol. Combines passive stretching, acupressure, and rhythmic compression — a fundamentally different experience from Western massage.",
+      "Traditional Thai bodywork studio in Sebastopol. Combines passive stretching, acupressure, and rhythmic compression. A fundamentally different experience from Western massage.",
     devonNote:
-      "The best massage spot around. Period. Worth the drive to Sebastopol. The Thai bodywork here is unlike anything else in the area.",
+      "Best massage I've found in the county. Worth the drive to Sebastopol. The Thai bodywork here is unlike anything else in the area.",
     address: "868 Gravenstein Hwy N, Sebastopol, CA 95472",
     coordinates: { lat: 38.41, lng: -122.83 },
     phone: "(707) 861-3562",
@@ -651,7 +651,7 @@ export const venues: Venue[] = [
     description:
       "Ancient old-growth redwood grove minutes from Guerneville. Easy walking trails through cathedral trees up to 1,400 years old.",
     devonNote:
-      "This is why you came to Northern California. The Pioneer Trail is an easy loop that will make your jaw drop. Colonel Armstrong is over 300 feet tall. Note: East Ridge Connector trail is CLOSED.",
+      "This is why you came to Northern California. The Pioneer Trail is an easy loop that will make your jaw drop. Colonel Armstrong is over 300 feet tall. The East Ridge Connector trail is currently closed.",
     address: "17000 Armstrong Woods Rd, Guerneville, CA 95446",
     coordinates: { lat: 38.5184, lng: -122.9995 },
     phone: "(707) 869-2958",
@@ -664,7 +664,7 @@ export const venues: Venue[] = [
       "Colonel Armstrong Tree (308 ft, 1,400 years old)",
       "Pioneer Trail (easy loop)",
       "Discovery Trail",
-      "East Ridge Connector CLOSED",
+      "East Ridge Connector trail closed",
       "No cell service inside the grove",
     ],
     cellService: false,
@@ -698,7 +698,7 @@ export const venues: Venue[] = [
     description:
       "Dramatic beach where the Russian River meets the Pacific Ocean. Harbor seals haul out on the sand. Stunning coastal scenery.",
     devonNote:
-      "One of the most dramatic beaches on the coast. The seals are usually on the south end. Do not approach them — they have pups in spring. March through June is pupping season. The volunteers will be there with scopes and info. Stay at least 50 yards away — it's the law and mama seals will abandon pups if stressed.",
+      "One of the most dramatic beaches on the coast. The seals are usually on the south end. March through June is pupping season, so give them space. The volunteers will be there with scopes and info. Stay at least 50 yards away. It's the law, and mama seals will abandon pups if stressed.",
     address: "Goat Rock Rd, Jenner, CA 95450",
     coordinates: { lat: 38.4425, lng: -123.13 },
     hours: "Sunrise to sunset",
@@ -710,7 +710,7 @@ export const venues: Venue[] = [
       "River meets the ocean",
       "Dramatic rock formations",
       "April-May is prime seal pupping season",
-      "Do NOT swim — dangerous currents",
+      "Do not swim here, dangerous currents",
     ],
     cellService: false,
   },
@@ -722,7 +722,7 @@ export const venues: Venue[] = [
     description:
       "The premier coastal trail on the Sonoma Coast. Follows the blufftop with continuous Pacific panoramas, sea stacks, tide pools, and spring wildflowers.",
     devonNote:
-      "The best coastal hike in the area. 4 miles one-way from Shell Beach to Blind Beach. April wildflowers are incredible — poppies, lupine, Indian paintbrush.",
+      "The best coastal hike in the area. 4 miles one-way from Shell Beach to Blind Beach. April wildflowers are incredible. Poppies, lupine, Indian paintbrush.",
     address: "Shell Beach parking lot, Hwy 1, Jenner, CA",
     coordinates: { lat: 38.426, lng: -123.103 },
     website: "https://www.alltrails.com/trail/us/california/kortum-trail-shell-beach-to-blind-beach",
@@ -802,7 +802,7 @@ export const venues: Venue[] = [
       "Arch rock formation",
       "Secluded feel",
       "Southern end of Kortum Trail",
-      "Do NOT swim — dangerous currents",
+      "Do not swim here, dangerous currents",
     ],
     cellService: false,
   },
@@ -814,7 +814,7 @@ export const venues: Venue[] = [
     description:
       "Classic fishing village on the coast. Whale watching in spring, fresh seafood, Bodega Head hike with panoramic views.",
     devonNote:
-      "April is THE month for gray whale watching. Bodega Head has a 265-foot bluff with free volunteer naturalists on weekends through Mother's Day. Bring binoculars. Fun fact: This is where Hitchcock filmed The Birds (1963) — The Tides Wharf is still here, and the church from the movie is in the town of Bodega, 5 miles inland.",
+      "April is the month for gray whale watching. Bodega Head has a 265-foot bluff with free volunteer naturalists on weekends through Mother's Day. Bring binoculars. Fun fact: this is where Hitchcock filmed The Birds (1963). The Tides Wharf is still here, and the church from the movie is in the town of Bodega, 5 miles inland.",
     address: "Bodega Bay, CA 94923",
     coordinates: { lat: 38.333, lng: -123.048 },
     hours: "All day",
@@ -860,7 +860,7 @@ export const venues: Venue[] = [
     description:
       "Restored 1812 Russian fur trading outpost on dramatic ocean bluffs. A piece of California history most people never see.",
     devonNote:
-      "The production is shooting on Fort Ross Road, so you'll drive past the turnoff every day. Worth a stop on a day off — the chapel and stockade are fascinating.",
+      "The production is shooting on Fort Ross Road, so you'll drive past the turnoff every day. Worth a stop on a day off. The chapel and stockade are fascinating.",
     address: "19005 Coast Hwy 1, Jenner, CA 95450",
     coordinates: { lat: 38.5145, lng: -123.2445 },
     phone: "(707) 847-3437",
@@ -879,7 +879,7 @@ export const venues: Venue[] = [
   },
   {
     slug: "russian-river-swim",
-    name: "Russian River — Monte Rio Beach",
+    name: "Russian River: Monte Rio Beach",
     category: "outdoors",
     subcategory: "swimming",
     description:
@@ -906,7 +906,7 @@ export const venues: Venue[] = [
     description:
       "The creek that runs through Cazadero. Swimming holes, rock hopping, and the soundtrack of the forest.",
     devonNote:
-      "This is the creek from the film. Multiple access points — ask me and I will show you the best spots. Cold but refreshing.",
+      "This is the creek from the film. Multiple access points. Ask me and I'll show you the best spots. Cold but refreshing.",
     address: "Cazadero, CA 95421",
     coordinates: { lat: 38.534, lng: -123.061 },
     hours: "Always accessible",
@@ -924,13 +924,13 @@ export const venues: Venue[] = [
 
   {
     slug: "landpaths-grove",
-    name: "LandPaths — Grove of Old Trees",
+    name: "LandPaths: Grove of Old Trees",
     category: "outdoors",
     subcategory: "hike",
     description:
       "Free, walk-in old-growth redwood preserve west of Occidental. 48 acres of ancient trees, no reservation needed. LandPaths also runs guided hikes at their 1,000-acre Bohemia Preserve nearby.",
     devonNote:
-      "LandPaths does incredible work opening land to the public. The Grove of Old Trees is free and you can just show up. For something more guided, check their Bohemia Preserve hikes — they fill up, so sign up early at landpaths.org.",
+      "LandPaths does incredible work opening land to the public. The Grove of Old Trees is free and you can just show up. For something more guided, check their Bohemia Preserve hikes. They fill up, so sign up early at landpaths.org.",
     address: "17599 Fitzpatrick Ln, Occidental, CA 95465",
     coordinates: { lat: 38.4095, lng: -122.9580 },
     website: "https://landpaths.org",
@@ -940,7 +940,7 @@ export const venues: Venue[] = [
     priceRange: "$",
     tags: ["hike", "redwoods", "free", "old-growth", "day-off", "nature"],
     highlights: [
-      "Free — no reservation needed",
+      "Free, no reservation needed",
       "Old-growth redwoods",
       "48 acres, walk-in access",
       "Bohemia Preserve guided hikes (1,000 acres, sign up at landpaths.org)",
@@ -956,7 +956,7 @@ export const venues: Venue[] = [
     category: "essentials",
     subcategory: "gas",
     description:
-      "Full-service 76 station in Guerneville. Fill up here before heading to Cazadero — there is no gas in Caz.",
+      "Full-service 76 station in Guerneville. Fill up here before heading to Cazadero. There is no gas in Caz.",
     address: "16383 Main St, Guerneville, CA 95446",
     coordinates: { lat: 38.5018, lng: -122.9965 },
     phone: "(707) 869-2051",
@@ -964,7 +964,7 @@ export const venues: Venue[] = [
     driveTime: "20 min",
     tags: ["gas", "essentials"],
     highlights: [
-      "Fill up BEFORE heading to Cazadero",
+      "Fill up before heading to Cazadero",
       "No gas in Cazadero",
       "Convenience store",
     ],
@@ -972,7 +972,7 @@ export const venues: Venue[] = [
   },
   {
     slug: "guerneville-safeway",
-    name: "Safeway — Guerneville",
+    name: "Safeway, Guerneville",
     category: "essentials",
     subcategory: "grocery",
     description:
@@ -1008,7 +1008,7 @@ export const venues: Venue[] = [
     tags: ["pharmacy", "essentials"],
     highlights: [
       "Closest pharmacy to Cazadero",
-      "Independent — well-reviewed",
+      "Independent, well-reviewed",
     ],
     cellService: true,
   },
@@ -1038,7 +1038,7 @@ export const venues: Venue[] = [
     category: "essentials",
     subcategory: "hardware",
     description:
-      "Local hardware and supply store right in Cazadero. Run by Don — everyone calls it Don's. Quick stop for tools, auto parts, plumbing, electrical, garden supplies.",
+      "Local hardware and supply store right in Cazadero. Run by Don, everyone calls it Don's. Quick stop for tools, auto parts, plumbing, electrical, garden supplies.",
     devonNote:
       "If you need something quick, Don's got a surprising variety of one-off things. But it'll be cheaper at True Value in Guerneville or Home Depot in Santa Rosa.",
     address: "6152 Cazadero Hwy, Cazadero, CA 95421",
@@ -1050,7 +1050,7 @@ export const venues: Venue[] = [
     highlights: [
       "Right in Cazadero",
       "Hardware, auto parts, tools",
-      "Ask Don — he knows everything",
+      "Ask Don, he knows everything",
     ],
     cellService: true,
   },

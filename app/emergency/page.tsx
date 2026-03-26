@@ -4,7 +4,7 @@ import { Footer } from "@/components/layout/footer";
 import { Phone, Warning, FirstAidKit } from "@phosphor-icons/react/dist/ssr";
 
 export const metadata = {
-  title: "Emergency — Ten Aker Wood Guide",
+  title: "Emergency - Ten Aker Wood Guide",
 };
 
 export default function EmergencyPage() {
@@ -27,7 +27,7 @@ export default function EmergencyPage() {
             Sonoma County dispatch covers Cazadero. Response times are
             20-45 minutes due to the remote location. Know the address of
             wherever you are. If someone needs a hospital, do not wait for
-            an ambulance — drive them.
+            an ambulance. Drive them yourself.
           </p>
         </div>
 
@@ -83,7 +83,7 @@ export default function EmergencyPage() {
           </h2>
           <div className="bg-accent/5 border border-accent/15 rounded-xl p-5">
             <p className="text-sm text-foreground font-medium mb-3">
-              Do this before you arrive. These alerts can save your life in a fire evacuation.
+              Best to do this before you arrive. These alerts can save your life in a fire evacuation.
             </p>
             <div className="space-y-2">
               <a
@@ -94,7 +94,7 @@ export default function EmergencyPage() {
               >
                 <div>
                   <p className="text-sm font-semibold text-foreground">SoCoAlert</p>
-                  <p className="text-xs text-muted">Sonoma County official emergency alerts — phone, text, or email</p>
+                  <p className="text-xs text-muted">Sonoma County official emergency alerts. Phone, text, or email.</p>
                 </div>
                 <span className="text-accent text-xs font-medium shrink-0 ml-3">Sign up &rarr;</span>
               </a>
@@ -106,7 +106,7 @@ export default function EmergencyPage() {
               >
                 <div>
                   <p className="text-sm font-semibold text-foreground">PG&E PSPS Alerts</p>
-                  <p className="text-xs text-muted">Power shutoff notifications — outages can last 24-72+ hours in Cazadero</p>
+                  <p className="text-xs text-muted">Power shutoff notifications. Outages can last 24-72+ hours in Cazadero.</p>
                 </div>
                 <span className="text-accent text-xs font-medium shrink-0 ml-3">Sign up &rarr;</span>
               </a>

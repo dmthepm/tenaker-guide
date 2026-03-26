@@ -5,7 +5,7 @@ import { Footer } from "@/components/layout/footer";
 import { CellSignalFull, CellSignalNone, WifiHigh } from "@phosphor-icons/react/dist/ssr";
 
 export const metadata = {
-  title: "Essentials — Ten Aker Wood Guide",
+  title: "Essentials - Ten Aker Wood Guide",
 };
 
 export default function EssentialsPage() {
@@ -32,7 +32,7 @@ export default function EssentialsPage() {
             <div className="flex items-start gap-3">
               <CellSignalNone size={20} className="text-emergency/60 mt-0.5 shrink-0" />
               <div>
-                <p className="text-sm font-medium text-foreground">Cazadero — Very Limited</p>
+                <p className="text-sm font-medium text-foreground">Cazadero: Very Limited</p>
                 <p className="text-xs text-muted mt-0.5">
                   AT&T has very spotty coverage. T-Mobile and Verizon are effectively dead. Some spots near the General Store get a bar or two. Download maps, music, and anything you need before driving up.
                 </p>
@@ -41,7 +41,7 @@ export default function EssentialsPage() {
             <div className="flex items-start gap-3">
               <CellSignalFull size={20} className="text-sage-dark mt-0.5 shrink-0" />
               <div>
-                <p className="text-sm font-medium text-foreground">Guerneville & Monte Rio — Good</p>
+                <p className="text-sm font-medium text-foreground">Guerneville & Monte Rio: Good</p>
                 <p className="text-xs text-muted mt-0.5">
                   All major carriers work in Guerneville and Monte Rio. This is where you will catch up on texts, emails, and calls.
                 </p>
@@ -50,7 +50,7 @@ export default function EssentialsPage() {
             <div className="flex items-start gap-3">
               <CellSignalNone size={20} className="text-emergency/60 mt-0.5 shrink-0" />
               <div>
-                <p className="text-sm font-medium text-foreground">Coast (Jenner, Goat Rock) — Dead</p>
+                <p className="text-sm font-medium text-foreground">Coast (Jenner, Goat Rock): Dead</p>
                 <p className="text-xs text-muted mt-0.5">
                   No cell service on most of the Sonoma Coast. Tell someone where you are going before heading out.
                 </p>
@@ -61,7 +61,7 @@ export default function EssentialsPage() {
               <div>
 <p className="text-sm font-medium text-foreground">Free WiFi in Cazadero</p>
                 <p className="text-xs text-muted mt-0.5">
-                  The General Store and the firehouse both have free WiFi — look for the network <span className="font-mono font-medium text-foreground">EQAC</span>. In Guerneville, Coffee Bazaar has free WiFi and opens at 6am.
+                  The General Store and the firehouse both have free WiFi. Look for the network <span className="font-mono font-medium text-foreground">EQAC</span>. In Guerneville, Coffee Bazaar has free WiFi and opens at 6am.
                 </p>
               </div>
             </div>

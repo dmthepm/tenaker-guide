@@ -21,7 +21,7 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Ten Aker Wood — Local Guide",
+  title: "Ten Aker Wood - Local Guide",
   description:
     "Your guide to Cazadero and Sonoma County. Food, outdoors, wellness, and everything you need while you're here.",
   keywords: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL("https://tenaker.devonmeadows.com"),
   openGraph: {
-    title: "Ten Aker Wood — Local Guide",
+    title: "Ten Aker Wood - Local Guide",
     description:
       "Your guide to Cazadero and Sonoma County. Food, outdoors, wellness, and everything you need while you're here.",
     url: "https://tenaker.devonmeadows.com",

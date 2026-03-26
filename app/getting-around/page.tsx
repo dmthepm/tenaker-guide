@@ -3,7 +3,7 @@ import { Footer } from "@/components/layout/footer";
 import { Car, Warning, MapPin, DownloadSimple, DeviceMobileCamera, Path, Bug, Truck, Jeep, SmileyNervous } from "@phosphor-icons/react/dist/ssr";
 
 export const metadata = {
-  title: "Getting Around — Ten Aker Wood Guide",
+  title: "Getting Around - Ten Aker Wood Guide",
 };
 
 const distances = [
@@ -62,7 +62,7 @@ export default function GettingAroundPage() {
           </h2>
           <div className="bg-accent/5 border border-accent/15 rounded-2xl p-5">
             <p className="text-sm text-foreground font-medium">
-              Do this before you leave WiFi. You will not have cell service for navigation in Cazadero.
+              Best to do this before you leave WiFi. There&apos;s no cell service for navigation in Cazadero.
             </p>
             <p className="text-xs text-muted mt-2">
               Download the area from Fort Ross (north) to Bodega Bay (south), Cazadero (west) to Sebastopol (east). This covers every destination in this guide.
@@ -139,7 +139,7 @@ export default function GettingAroundPage() {
                 Valley Ford to Bodega
               </h3>
               <p className="text-xs text-muted mt-1">
-                A completely different landscape &mdash; open dairy pasture, weathered barns, coastal pastoral. The town of Bodega has the church from Hitchcock&apos;s <em>The Birds</em>.
+                A completely different landscape. Open dairy pasture, weathered barns, coastal pastoral. The town of Bodega has the church from Hitchcock&apos;s <em>The Birds</em>.
               </p>
             </div>
           </div>
@@ -157,7 +157,7 @@ export default function GettingAroundPage() {
                 No Uber or Lyft up here
               </h3>
               <p className="text-xs text-muted mt-1">
-                Rideshare does not work in Cazadero. You need a car. If you are
+                Rideshare doesn&apos;t reach Cazadero. You&apos;ll need a car. If you&apos;re
                 arriving without one, coordinate with production for rides or
                 rentals.
               </p>
@@ -167,9 +167,9 @@ export default function GettingAroundPage() {
                 Gas up before you come up
               </h3>
               <p className="text-xs text-muted mt-1">
-                No gas in Cazadero. Fill up in Monte Rio or Guerneville. If you
-                are driving from the airport, there are stations all along
-                Highway 116.
+                No gas station in Cazadero. Monte Rio and Guerneville are the closest
+                fill-ups. If you&apos;re driving from the airport, there are stations all
+                along Highway 116.
               </p>
             </div>
             <div className="bg-card border border-border rounded-xl p-4">
@@ -177,7 +177,7 @@ export default function GettingAroundPage() {
                 Download your maps offline
               </h3>
               <p className="text-xs text-muted mt-1">
-                See the offline maps section below for step-by-step instructions. Do this before you leave WiFi.
+                See the offline maps section below for step-by-step instructions. Best to do this before you leave WiFi.
               </p>
             </div>
             <div className="bg-card border border-border rounded-xl p-4">
@@ -192,7 +192,7 @@ export default function GettingAroundPage() {
             </div>
             <div className="bg-sage/20 border border-sage/40 rounded-xl p-4">
               <h3 className="text-sm font-semibold text-foreground">
-                Monte Rio vs. Cazadero — drive times differ
+                Monte Rio vs. Cazadero
               </h3>
               <p className="text-xs text-muted mt-1">
                 If you are staying in Monte Rio, everything is 10-15 min closer
@@ -206,8 +206,8 @@ export default function GettingAroundPage() {
                 Night driving is real
               </h3>
               <p className="text-xs text-muted mt-1">
-                No streetlights on any of these roads. Deer are active at dawn
-                and dusk. Drive slowly, use high beams when safe, and honk
+                There are no streetlights on any of these roads. Deer are active at dawn
+                and dusk. I always drive slowly, use high beams when safe, and honk
                 before blind curves. The roads are narrow and winding.
               </p>
             </div>
@@ -228,9 +228,9 @@ export default function GettingAroundPage() {
                 Spring weather
               </h3>
               <p className="text-xs text-muted mt-1">
-                April-May can have rain, especially early in the shoot. Roads
+                April and May can have rain, especially early in the shoot. Roads
                 can flood in heavy rain. The creek rises fast. If water is
-                flowing across a road, do not drive through it.
+                flowing across a road, it&apos;s not worth the risk.
               </p>
             </div>
             <div className="bg-card border border-border rounded-xl p-4">
@@ -239,9 +239,9 @@ export default function GettingAroundPage() {
                 Mosquito hour
               </h3>
               <p className="text-xs text-muted mt-1">
-                Mosquitoes come out around 6pm every evening near water and forest.
-                They&apos;ll eat you alive for 1&ndash;2 hours, then taper off. Stock Sawyer
-                Picaridin &mdash; it works like DEET but won&apos;t damage camera gear or
+                Around 6pm the mosquitoes show up, especially near water and in the forest.
+                They&apos;ll eat you alive for an hour or two, then taper off. I recommend Sawyer
+                Picaridin. It works like DEET but won&apos;t damage camera gear or
                 synthetic fabrics.
               </p>
             </div>
@@ -252,8 +252,8 @@ export default function GettingAroundPage() {
               </h3>
               <p className="text-xs text-muted mt-1">
                 There&apos;s active construction on River Road (spring 2026). Tree crews
-                also work on Cazadero Highway and Fort Ross Road throughout the season &mdash;
-                expect 5&ndash;10 minute stops while they clear branches from power lines.
+                also work on Cazadero Highway and Fort Ross Road throughout the season.
+                Expect 5 to 10 minute stops while they clear branches from power lines.
               </p>
             </div>
             <div className="bg-card border border-border rounded-xl p-4">
@@ -263,9 +263,8 @@ export default function GettingAroundPage() {
               </h3>
               <p className="text-xs text-muted mt-1">
                 The ranch roads and mountain roads around here are gravel with steep
-                hills. If you only have two-wheel drive, don&apos;t attempt them &mdash; you
-                can easily get stuck and it&apos;s hard to get pulled out. Plus it tears
-                up the roads.
+                hills. Two-wheel drive won&apos;t cut it. I&apos;ve seen people get stuck, and
+                it&apos;s hard to get pulled out. It also tears up the roads.
               </p>
             </div>
             <div className="bg-card border border-border rounded-xl p-4">
@@ -275,8 +274,8 @@ export default function GettingAroundPage() {
               </h3>
               <p className="text-xs text-muted mt-1">
                 The roads between Cazadero and everywhere else are extremely winding.
-                If you or your passengers get carsick, drive slowly, look at the
-                horizon, and crack the windows. It&apos;s real out here.
+                If you or your passengers get carsick, driving slowly, looking at the
+                horizon, and cracking the windows helps. It&apos;s real out here.
               </p>
             </div>
           </div>
