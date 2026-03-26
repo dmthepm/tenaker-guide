@@ -60,13 +60,14 @@ export function QuickLinks() {
         Quick Links
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-        {links.map((link) => {
+        {links.map((link, i) => {
           const Icon = link.icon;
           return (
             <Link
               key={link.href}
               href={link.href}
-              className="bg-card border border-border rounded-xl p-4 md:p-5 transition-all hover:border-accent/30 hover:-translate-y-0.5 active:scale-[0.98]"
+              className="animate-fade-in bg-card border border-border rounded-xl p-4 md:p-5 transition-all hover:border-accent/30 hover:-translate-y-0.5 active:scale-[0.98]"
+              style={{ animationDelay: `${i * 80}ms` }}
             >
               <Icon size={24} className={link.color} weight="duotone" />
               <h3 className="mt-2 text-sm font-semibold text-foreground">

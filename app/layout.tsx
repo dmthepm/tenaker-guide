@@ -54,7 +54,6 @@ export default function RootLayout({
     >
       <body className="antialiased pb-20 md:pb-0">
         <LenisProvider>
-          <div className="grain" aria-hidden="true" />
           <Nav />
           <main className="min-h-[100dvh]">{children}</main>
         </LenisProvider>

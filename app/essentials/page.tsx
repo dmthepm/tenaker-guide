@@ -2,6 +2,7 @@ import { venues } from "@/data/venues";
 import { PageHeader } from "@/components/layout/page-header";
 import { VenueCard } from "@/components/ui/venue-card";
 import { Footer } from "@/components/layout/footer";
+import { WifiSlash, WifiHigh, WifiX } from "@phosphor-icons/react/dist/ssr";
 
 export const metadata = {
   title: "Essentials - Ten Aker Wood Guide",
@@ -29,7 +30,7 @@ export default function EssentialsPage() {
           </h2>
           <div className="bg-card border border-border rounded-2xl p-5 space-y-4">
             <div className="flex items-start gap-3">
-              <span className="text-xl mt-0.5 shrink-0">📵</span>
+              <WifiSlash size={24} className="text-emergency shrink-0 mt-0.5" weight="duotone" />
               <div>
                 <p className="text-sm font-semibold text-foreground">Cazadero: Unreliable</p>
                 <p className="text-xs text-muted mt-0.5">
@@ -38,7 +39,7 @@ export default function EssentialsPage() {
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <span className="text-xl mt-0.5 shrink-0">📶</span>
+              <WifiHigh size={24} className="text-sage-dark shrink-0 mt-0.5" weight="duotone" />
               <div>
                 <p className="text-sm font-semibold text-foreground">Guerneville & Monte Rio: Works</p>
                 <p className="text-xs text-muted mt-0.5">
@@ -47,16 +48,16 @@ export default function EssentialsPage() {
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <span className="text-xl mt-0.5 shrink-0">🚫</span>
+              <WifiX size={24} className="text-emergency shrink-0 mt-0.5" weight="duotone" />
               <div>
                 <p className="text-sm font-semibold text-foreground">Coast (Jenner, Goat Rock): Nothing</p>
                 <p className="text-xs text-muted mt-0.5">
-                  No service on most of the Sonoma Coast. Let someone know where you’re headed before you go.
+                  No service on most of the Sonoma Coast. Let someone know where you\u2019re headed before you go.
                 </p>
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <span className="text-xl mt-0.5 shrink-0">📡</span>
+              <WifiHigh size={24} className="text-sage-dark shrink-0 mt-0.5" weight="duotone" />
               <div>
                 <p className="text-sm font-semibold text-foreground">Free WiFi in Cazadero</p>
                 <p className="text-xs text-muted mt-0.5">
@@ -81,8 +82,10 @@ export default function EssentialsPage() {
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {gas.map((v) => (
-                <VenueCard key={v.slug} venue={v} />
+              {gas.map((v, i) => (
+                <div key={v.slug} className="animate-fade-in" style={{ animationDelay: `${i * 80}ms` }}>
+                  <VenueCard venue={v} />
+                </div>
               ))}
             </div>
           </section>
@@ -94,8 +97,10 @@ export default function EssentialsPage() {
               Groceries
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {grocery.map((v) => (
-                <VenueCard key={v.slug} venue={v} />
+              {grocery.map((v, i) => (
+                <div key={v.slug} className="animate-fade-in" style={{ animationDelay: `${i * 80}ms` }}>
+                  <VenueCard venue={v} />
+                </div>
               ))}
             </div>
           </section>
@@ -107,8 +112,10 @@ export default function EssentialsPage() {
               More
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {other.map((v) => (
-                <VenueCard key={v.slug} venue={v} />
+              {other.map((v, i) => (
+                <div key={v.slug} className="animate-fade-in" style={{ animationDelay: `${i * 80}ms` }}>
+                  <VenueCard venue={v} />
+                </div>
               ))}
             </div>
           </section>

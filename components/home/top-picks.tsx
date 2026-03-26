@@ -24,7 +24,11 @@ export function TopPicks() {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {picks.map(
-          (venue) => venue && <VenueCard key={venue.slug} venue={venue} />
+          (venue, i) => venue && (
+            <div key={venue.slug} className="animate-fade-in" style={{ animationDelay: `${i * 80}ms` }}>
+              <VenueCard venue={venue} />
+            </div>
+          )
         )}
       </div>
     </section>

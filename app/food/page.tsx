@@ -23,7 +23,7 @@ export default function FoodPage() {
     <>
       <PageHeader
         title="Food & Drink"
-        subtitle="From the Caz General Store five minutes away to farm-to-table restaurants worth the drive. Sorted by what's closest."
+        subtitle="From the Caz General Store five minutes away to farm-to-table restaurants worth the drive. Sorted by what\u2019s closest."
       />
       <div className="px-6 max-w-5xl mx-auto space-y-10 pb-12">
         {cafes.length > 0 && (
@@ -32,8 +32,10 @@ export default function FoodPage() {
               Cafes & Coffee
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {cafes.map((v) => (
-                <VenueCard key={v.slug} venue={v} />
+              {cafes.map((v, i) => (
+                <div key={v.slug} className="animate-fade-in" style={{ animationDelay: `${i * 80}ms` }}>
+                  <VenueCard venue={v} />
+                </div>
               ))}
             </div>
           </section>
@@ -44,8 +46,10 @@ export default function FoodPage() {
               Bakeries
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {bakeries.map((v) => (
-                <VenueCard key={v.slug} venue={v} />
+              {bakeries.map((v, i) => (
+                <div key={v.slug} className="animate-fade-in" style={{ animationDelay: `${i * 80}ms` }}>
+                  <VenueCard venue={v} />
+                </div>
               ))}
             </div>
           </section>
@@ -56,8 +60,10 @@ export default function FoodPage() {
               Restaurants
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {restaurants.map((v) => (
-                <VenueCard key={v.slug} venue={v} />
+              {restaurants.map((v, i) => (
+                <div key={v.slug} className="animate-fade-in" style={{ animationDelay: `${i * 80}ms` }}>
+                  <VenueCard venue={v} />
+                </div>
               ))}
             </div>
           </section>
@@ -68,8 +74,10 @@ export default function FoodPage() {
               More
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {other.map((v) => (
-                <VenueCard key={v.slug} venue={v} />
+              {other.map((v, i) => (
+                <div key={v.slug} className="animate-fade-in" style={{ animationDelay: `${i * 80}ms` }}>
+                  <VenueCard venue={v} />
+                </div>
               ))}
             </div>
           </section>

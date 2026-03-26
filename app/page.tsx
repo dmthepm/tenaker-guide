@@ -2,7 +2,7 @@ import { Hero } from "@/components/home/hero";
 import { QuickLinks } from "@/components/home/quick-links";
 import { TopPicks } from "@/components/home/top-picks";
 import { Footer } from "@/components/layout/footer";
-import { CellSignalNone, Warning } from "@phosphor-icons/react/dist/ssr";
+import { CellSignalNone, Warning, GasPump, RoadHorizon, Leaf } from "@phosphor-icons/react/dist/ssr";
 
 export default function Home() {
   return (
@@ -34,9 +34,11 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-start gap-2.5">
-              <span className="text-accent mt-0.5 shrink-0 text-base">
-                &#9981;
-              </span>
+              <GasPump
+                size={18}
+                className="text-accent mt-0.5 shrink-0"
+                weight="duotone"
+              />
               <div>
                 <p className="text-sm font-medium text-foreground">
                   No gas in Cazadero
@@ -48,9 +50,11 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-start gap-2.5">
-              <span className="text-sage-dark mt-0.5 shrink-0 text-base">
-                &#127795;
-              </span>
+              <RoadHorizon
+                size={18}
+                className="text-sage-dark mt-0.5 shrink-0"
+                weight="duotone"
+              />
               <div>
                 <p className="text-sm font-medium text-foreground">
                   Roads are narrow and winding
@@ -62,9 +66,11 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-start gap-2.5">
-              <span className="text-sage-dark mt-0.5 shrink-0 text-base">
-                &#127807;
-              </span>
+              <Leaf
+                size={18}
+                className="text-sage-dark mt-0.5 shrink-0"
+                weight="duotone"
+              />
               <div>
                 <p className="text-sm font-medium text-foreground">
                   Poison oak is everywhere

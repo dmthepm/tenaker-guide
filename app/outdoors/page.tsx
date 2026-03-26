@@ -142,8 +142,10 @@ export default function OutdoorsPage() {
               Hikes & Nature
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {hikes.map((v) => (
-                <VenueCard key={v.slug} venue={v} />
+              {hikes.map((v, i) => (
+                <div key={v.slug} className="animate-fade-in" style={{ animationDelay: `${i * 80}ms` }}>
+                  <VenueCard venue={v} />
+                </div>
               ))}
             </div>
           </section>
@@ -154,8 +156,10 @@ export default function OutdoorsPage() {
               Beaches & Coast
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {beaches.map((v) => (
-                <VenueCard key={v.slug} venue={v} />
+              {beaches.map((v, i) => (
+                <div key={v.slug} className="animate-fade-in" style={{ animationDelay: `${i * 80}ms` }}>
+                  <VenueCard venue={v} />
+                </div>
               ))}
             </div>
           </section>
@@ -166,8 +170,10 @@ export default function OutdoorsPage() {
               Swimming
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {swimming.map((v) => (
-                <VenueCard key={v.slug} venue={v} />
+              {swimming.map((v, i) => (
+                <div key={v.slug} className="animate-fade-in" style={{ animationDelay: `${i * 80}ms` }}>
+                  <VenueCard venue={v} />
+                </div>
               ))}
             </div>
           </section>
@@ -178,8 +184,10 @@ export default function OutdoorsPage() {
               Day Trips & More
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {other.map((v) => (
-                <VenueCard key={v.slug} venue={v} />
+              {other.map((v, i) => (
+                <div key={v.slug} className="animate-fade-in" style={{ animationDelay: `${i * 80}ms` }}>
+                  <VenueCard venue={v} />
+                </div>
               ))}
             </div>
           </section>
