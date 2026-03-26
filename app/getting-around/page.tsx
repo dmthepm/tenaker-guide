@@ -1,0 +1,132 @@
+import { PageHeader } from "@/components/layout/page-header";
+import { Footer } from "@/components/layout/footer";
+import { Car, Warning, MapPin } from "@phosphor-icons/react/dist/ssr";
+
+export const metadata = {
+  title: "Getting Around — Ten Aker Wood Guide",
+};
+
+const distances = [
+  { from: "SFO Airport", time: "1 hr 45 min", miles: "~85 mi" },
+  { from: "OAK Airport", time: "2 hr", miles: "~95 mi" },
+  { from: "STS (Santa Rosa Airport)", time: "50 min", miles: "~30 mi" },
+  { from: "Monte Rio", time: "15 min", miles: "~8 mi" },
+  { from: "Guerneville", time: "20 min", miles: "~12 mi" },
+  { from: "Jenner (coast)", time: "25 min", miles: "~15 mi" },
+  { from: "Sebastopol", time: "35 min", miles: "~22 mi" },
+  { from: "Santa Rosa", time: "50 min", miles: "~35 mi" },
+  { from: "Petaluma", time: "1 hr", miles: "~45 mi" },
+];
+
+export default function GettingAroundPage() {
+  return (
+    <>
+      <PageHeader
+        title="Getting Around"
+        subtitle="Everything you need to know about driving, distances, and navigating rural Sonoma County."
+      />
+      <div className="px-6 max-w-5xl mx-auto space-y-8 pb-12">
+        {/* Distances */}
+        <section>
+          <h2 className="font-mono text-xs uppercase tracking-widest text-muted mb-4 flex items-center gap-2">
+            <MapPin size={14} />
+            Drive Times from Cazadero
+          </h2>
+          <div className="bg-card border border-border rounded-2xl overflow-hidden">
+            {distances.map((d, i) => (
+              <div
+                key={d.from}
+                className={`flex items-center justify-between px-5 py-3 ${
+                  i < distances.length - 1 ? "border-b border-border" : ""
+                }`}
+              >
+                <span className="text-sm text-foreground">{d.from}</span>
+                <div className="flex items-center gap-3">
+                  <span className="text-xs text-muted font-mono">
+                    {d.miles}
+                  </span>
+                  <span className="text-sm font-medium text-accent font-mono">
+                    {d.time}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Tips */}
+        <section>
+          <h2 className="font-mono text-xs uppercase tracking-widest text-muted mb-4 flex items-center gap-2">
+            <Car size={14} />
+            Road Tips
+          </h2>
+          <div className="space-y-3">
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground">
+                No Uber or Lyft up here
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                Rideshare does not work in Cazadero. You need a car. If you are
+                arriving without one, coordinate with production for rides or
+                rentals.
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground">
+                Gas up before you come up
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                No gas in Cazadero. Fill up in Monte Rio or Guerneville. If you
+                are driving from the airport, there are stations all along
+                Highway 116.
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground">
+                Download your maps offline
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                Google Maps and Apple Maps both support offline downloads. Save
+                the Cazadero/Guerneville area before you lose cell service. You
+                will need it.
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground">
+                Night driving is real
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                No streetlights on any of these roads. Deer are active at dawn
+                and dusk. Drive slowly, use high beams when safe, and honk
+                before blind curves. The roads are narrow and winding.
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground">
+                SFO or STS?
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                SFO has more flights but is further. Charles M. Schulz Airport
+                in Santa Rosa (STS) is closer and easier, but has limited
+                routes. Check both. If flying into SFO, take 101 North to
+                Petaluma, then cut over to the coast via Bodega Hwy.
+              </p>
+            </div>
+            <div className="bg-accent/5 border border-accent/15 rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground flex items-center gap-2">
+                <Warning size={16} className="text-accent" weight="fill" />
+                Spring weather
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                April-May can have rain, especially early in the shoot. Roads
+                can flood in heavy rain. The creek rises fast. If water is
+                flowing across a road, do not drive through it.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <Footer />
+    </>
+  );
+}
