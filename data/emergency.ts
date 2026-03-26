@@ -58,11 +58,19 @@ export const emergencyContacts: EmergencyContact[] = [
     driveTime: "50 min",
   },
   {
-    name: "Noel's Automotive (closest mechanic)",
+    name: "Cazadero Supply (Don's)",
+    phone: "(707) 632-5257",
+    address: "6152 Cazadero Hwy, Cazadero, CA 95421",
+    description:
+      "Right in Cazadero. Hardware, auto parts, tools, and more. Don can help with a lot. Mon-Fri 9am-6pm, Sat 10am-2pm.",
+    driveTime: "0 min",
+  },
+  {
+    name: "Noel's Automotive (Monte Rio)",
     phone: "(707) 865-9602",
     address: "9898 Main St, Monte Rio, CA 95462",
     description:
-      "NAPA Auto Care certified. Closest mechanic to Cazadero. Mon-Fri 9am-5pm.",
+      "NAPA Auto Care certified. Full mechanic shop. Mon-Fri 9am-5pm.",
     driveTime: "15 min",
   },
   {
