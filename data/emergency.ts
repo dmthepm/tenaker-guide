@@ -112,7 +112,7 @@ export const safetyTips = [
   {
     title: "Cell Service",
     content:
-      "Cazadero has very poor coverage on all carriers. Verizon is best (~83% county coverage), AT&T second (~74%), T-Mobile weakest (~63%). Service drops significantly on Cazadero Hwy. Download offline maps before leaving WiFi. Consider walkie-talkies for on-set communication.",
+      "AT&T has very spotty coverage in Cazadero. T-Mobile and Verizon are effectively dead. Some spots near the General Store get a bar or two, but don't count on it. Free WiFi is available at the General Store and the firehouse (network: EQAC). Download maps, music, and anything you need before driving up. Walkie-talkies are recommended for on-set communication.",
   },
   {
     title: "No Gas",

@@ -24,7 +24,7 @@ export const venues: Venue[] = [
       "Hippie bowl",
       "Sandwiches",
       "Breakfast burritos",
-      "Local bulletin board",
+      "Free WiFi (network: EQAC)",
     ],
     cellService: true,
   },

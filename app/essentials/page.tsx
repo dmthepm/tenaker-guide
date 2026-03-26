@@ -34,7 +34,7 @@ export default function EssentialsPage() {
               <div>
                 <p className="text-sm font-medium text-foreground">Cazadero — Very Limited</p>
                 <p className="text-xs text-muted mt-0.5">
-                  AT&T has very spotty coverage. T-Mobile and Verizon are effectively dead. Some spots near the General Store get a bar. Download maps, music, and anything you need before driving up.
+                  AT&T has very spotty coverage. T-Mobile and Verizon are effectively dead. Some spots near the General Store get a bar or two. Download maps, music, and anything you need before driving up.
                 </p>
               </div>
             </div>
@@ -59,9 +59,9 @@ export default function EssentialsPage() {
             <div className="flex items-start gap-3">
               <WifiHigh size={20} className="text-sage-dark mt-0.5 shrink-0" />
               <div>
-                <p className="text-sm font-medium text-foreground">WiFi</p>
+<p className="text-sm font-medium text-foreground">Free WiFi in Cazadero</p>
                 <p className="text-xs text-muted mt-0.5">
-                  Your rental/housing should have WiFi. For public WiFi, try the Guerneville library or coffee shops in town.
+                  The General Store and the firehouse both have free WiFi — look for the network <span className="font-mono font-medium text-foreground">EQAC</span>. In Guerneville, Coffee Bazaar has free WiFi and opens at 6am.
                 </p>
               </div>
             </div>

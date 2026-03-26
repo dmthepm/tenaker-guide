@@ -27,8 +27,9 @@ export default function Home() {
                   Cell service is limited
                 </p>
                 <p className="text-xs text-muted mt-0.5">
-                  Most of Cazadero has no cell reception. Guerneville and Monte
-                  Rio have coverage. Download what you need before driving up.
+                  AT&T is spotty, T-Mobile and Verizon are dead. Free WiFi
+                  at the General Store and firehouse (network: EQAC). Download
+                  maps and music before driving up.
                 </p>
               </div>
             </div>

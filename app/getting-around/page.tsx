@@ -93,6 +93,27 @@ export default function GettingAroundPage() {
             </div>
             <div className="bg-card border border-border rounded-xl p-4">
               <h3 className="text-sm font-semibold text-foreground">
+                Free WiFi in Cazadero
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                The General Store and the firehouse both have free WiFi.
+                Look for the network name <span className="font-mono font-semibold">EQAC</span>.
+                In Guerneville, Coffee Bazaar on Armstrong Woods Rd has free WiFi and opens at 6am.
+              </p>
+            </div>
+            <div className="bg-sage/20 border border-sage/40 rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground">
+                Monte Rio vs. Cazadero — drive times differ
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                If you are staying in Monte Rio, everything is 10-15 min closer
+                than the times shown above (which are from the Caz General Store).
+                Monte Rio has cell service, and you are only 10 min from Guerneville
+                for groceries, gas, and restaurants.
+              </p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground">
                 Night driving is real
               </h3>
               <p className="text-xs text-muted mt-1">
