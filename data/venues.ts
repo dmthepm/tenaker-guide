@@ -85,7 +85,7 @@ export const venues: Venue[] = [
     category: "food",
     subcategory: "cafe",
     description:
-      "Woman-owned coffee house, restaurant, and curated market in Occidental. Farm-fresh menu, natural wine, soft serve, and the hippie bowl Ashley swears by.",
+      "Woman-owned coffee house, restaurant, and curated market in Occidental. Farm-fresh menu, natural wine, soft serve, incredible mochi donuts, and the hippie bowl Ashley swears by.",
     devonNote:
       "This is where Ashley gets her hippie bowl. Beautiful space in a historic building. The natural wine selection is solid and they do pop-up art events. Worth combining with a trip to Wild Flour Bread or Howard's.",
     address: "3703 Main St, Occidental, CA 95465",
@@ -97,6 +97,7 @@ export const venues: Venue[] = [
     tags: ["breakfast", "lunch", "coffee", "wine", "day-off", "hippie-bowl"],
     highlights: [
       "Hippie bowl (Ashley's pick)",
+      "Mochi donuts (incredible)",
       "Natural wine",
       "Soft serve",
       "Pop-up art events",

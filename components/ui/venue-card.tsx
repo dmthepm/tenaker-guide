@@ -109,7 +109,7 @@ export function VenueCard({ venue }: VenueCardProps) {
       </div>
 
       {/* Action buttons: icon-only on mobile, icon+label on sm+ */}
-      <div className="mt-4 flex flex-wrap gap-1.5 sm:gap-2">
+      <div className="mt-auto pt-4 flex flex-wrap gap-1.5 sm:gap-2">
         <a
           href={getGoogleMapsUrl(venue)}
           target="_blank"
