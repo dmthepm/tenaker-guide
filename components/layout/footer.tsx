@@ -3,10 +3,23 @@ export function Footer() {
     <footer className="border-t border-border mt-16 py-8 px-6">
       <div className="max-w-5xl mx-auto text-center">
         <p className="text-sm text-muted">
-          Made with care by Devon for the Ten Aker Wood crew.
+          Made with love by{" "}
+          <a
+            href="https://devonmeadows.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-foreground hover:text-accent transition-colors"
+          >
+            Devon
+          </a>
         </p>
         <p className="text-xs text-muted/60 mt-1">
-          Questions? Find Devon on set or in the group chat.
+          <a
+            href="mailto:hi@imdevon.com"
+            className="hover:text-accent transition-colors"
+          >
+            hi@imdevon.com
+          </a>
         </p>
       </div>
     </footer>
