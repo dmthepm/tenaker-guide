@@ -34,42 +34,41 @@ export default function EssentialsPage() {
           <h2 className="font-mono text-xs uppercase tracking-widest text-muted mb-4">
             Cell Service
           </h2>
-          <div className="bg-card border border-border rounded-2xl p-5 space-y-4">
-            <div className="flex items-start gap-3">
-              <WifiSlash size={24} className="text-emergency shrink-0 mt-0.5" weight="duotone" />
-              <div>
-                <p className="text-sm font-semibold text-foreground">Cazadero: Unreliable</p>
-                <p className="text-xs text-muted mt-0.5">
-                  Every carrier is spotty up here. Nobody counts on cellular. If you get a bar, consider it a bonus. Download maps, music, and anything you need before driving up.
-                </p>
-              </div>
+          <div className="bg-accent/5 border border-accent/15 rounded-2xl p-5 mb-4">
+            <p className="text-sm font-semibold text-foreground">
+              Cell service is unreliable in Cazadero and on the coast.
+            </p>
+            <p className="text-xs text-muted mt-1">
+              Every carrier is spotty. Nobody counts on cellular up here. Download maps, music, and anything you need before you lose service.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div className="bg-card border border-border rounded-xl p-4 text-center">
+              <WifiSlash size={28} className="text-emergency mx-auto" weight="duotone" />
+              <p className="text-sm font-semibold text-foreground mt-2">Cazadero</p>
+              <p className="text-xs text-emergency font-medium">Unreliable</p>
+              <p className="text-xs text-muted mt-1">If you get a bar, it's a bonus.</p>
             </div>
-            <div className="flex items-start gap-3">
-              <WifiHigh size={24} className="text-sage-dark shrink-0 mt-0.5" weight="duotone" />
-              <div>
-                <p className="text-sm font-semibold text-foreground">Guerneville & Monte Rio: Works</p>
-                <p className="text-xs text-muted mt-0.5">
-                  Service works in Guerneville and Monte Rio. This is where you catch up on texts, emails, and calls.
-                </p>
-              </div>
+            <div className="bg-card border border-border rounded-xl p-4 text-center">
+              <WifiHigh size={28} className="text-sage-dark mx-auto" weight="duotone" />
+              <p className="text-sm font-semibold text-foreground mt-2">Guerneville / Monte Rio</p>
+              <p className="text-xs text-sage-dark font-medium">Works</p>
+              <p className="text-xs text-muted mt-1">Catch up on texts and calls here.</p>
             </div>
-            <div className="flex items-start gap-3">
-              <WifiX size={24} className="text-emergency shrink-0 mt-0.5" weight="duotone" />
-              <div>
-                <p className="text-sm font-semibold text-foreground">Coast (Jenner, Goat Rock): Nothing</p>
-                <p className="text-xs text-muted mt-0.5">
-                  No service on most of the Sonoma Coast. Let someone know where you're headed before you go.
-                </p>
-              </div>
+            <div className="bg-card border border-border rounded-xl p-4 text-center">
+              <WifiX size={28} className="text-emergency mx-auto" weight="duotone" />
+              <p className="text-sm font-semibold text-foreground mt-2">Coast</p>
+              <p className="text-xs text-emergency font-medium">Nothing</p>
+              <p className="text-xs text-muted mt-1">No service at Jenner, Goat Rock, or the beaches.</p>
             </div>
-            <div className="flex items-start gap-3">
-              <WifiHigh size={24} className="text-sage-dark shrink-0 mt-0.5" weight="duotone" />
-              <div>
-                <p className="text-sm font-semibold text-foreground">Free WiFi in Cazadero</p>
-                <p className="text-xs text-muted mt-0.5">
-                  The General Store and the firehouse both have free WiFi. Look for the network <span className="font-mono font-semibold text-foreground">EQAC</span>.
-                </p>
-              </div>
+          </div>
+          <div className="mt-4 bg-sage/30 border border-sage/50 rounded-xl p-4 flex items-start gap-3">
+            <WifiHigh size={24} className="text-sage-dark shrink-0 mt-0.5" weight="duotone" />
+            <div>
+              <p className="text-sm font-semibold text-foreground">Free WiFi in Cazadero</p>
+              <p className="text-xs text-muted mt-0.5">
+                The General Store and the firehouse both have free WiFi. Look for the network <span className="font-mono font-semibold text-foreground">EQAC</span>.
+              </p>
             </div>
           </div>
         </section>

@@ -113,7 +113,7 @@ export const venues: Venue[] = [
     description:
       "Classic breakfast and brunch landmark on the Bohemian Highway in Occidental. Juice bar, bakery, locomotive-themed decor.",
     devonNote:
-      "Worth the drive on a day off. New ownership as of early 2026, so call ahead to confirm hours. The food has always been great here.",
+      "I love the breakfast sandwich here. One of my top three spots along with Cafe Aquatica and Piknik. New ownership as of early 2026, so call ahead to confirm hours.",
     address: "3611 Bohemian Hwy, Occidental, CA 95465",
     coordinates: { lat: 38.4095, lng: -122.9475 },
     phone: "(707) 874-2838",
@@ -123,7 +123,8 @@ export const venues: Venue[] = [
     priceRange: "$$",
     tags: ["breakfast", "lunch", "brunch", "day-off"],
     highlights: [
-      "Classic American breakfast",
+      "Breakfast sandwich (Devon's pick)",
+      "Eggs Benedict",
       "Juice bar",
       "Bakery",
       "Scenic Bohemian Hwy drive",
