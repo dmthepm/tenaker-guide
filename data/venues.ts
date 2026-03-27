@@ -133,7 +133,7 @@ export const venues: Venue[] = [
   },
   {
     slug: "howards-station-cafe",
-    name: "Howard's Station Cafe",
+    name: "Howard Station Cafe",
     category: "food",
     subcategory: "restaurant",
     description:
@@ -209,7 +209,7 @@ export const venues: Venue[] = [
   },
   {
     slug: "lightwave-coffee",
-    name: "Lightwave Coffee & Kitchen",
+    name: "Lightwave Coffee and Kitchen & Kitchen",
     category: "food",
     subcategory: "cafe",
     description:

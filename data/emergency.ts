@@ -70,7 +70,7 @@ export const emergencyContacts: EmergencyContact[] = [
     phone: "(707) 865-9602",
     address: "9898 Main St, Monte Rio, CA 95462",
     description:
-      "NAPA Auto Care certified. Full mechanic shop. Mon-Fri 9am-5pm.",
+      "NAPA Auto Care certified. Full mechanic shop. Mon-Fri 9am-5pm. Closed weekends.",
     driveTime: "15 min",
   },
   {
