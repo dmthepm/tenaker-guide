@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <section className="px-6 pt-16 pb-10 md:pt-24 md:pb-14 max-w-5xl mx-auto">
+    <section className="px-6 pt-16 pb-6 md:pt-24 md:pb-8 max-w-5xl mx-auto">
       <h1 className="font-[family-name:var(--font-fraunces)] text-4xl md:text-6xl font-semibold text-foreground tracking-tighter leading-none animate-fade-up">
         Welcome to Cazadero
       </h1>
