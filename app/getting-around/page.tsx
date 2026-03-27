@@ -198,6 +198,7 @@ export default function GettingAroundPage() {
                 If someone flashes their lights behind you, pull over and let them through. Locals know these roads. Plenty of pulloffs. Everybody&apos;s happier.
               </p>
             </div>
+          </div>
         </section>
       </div>
       <Footer />
