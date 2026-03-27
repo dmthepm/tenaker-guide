@@ -733,7 +733,7 @@ export const venues: Venue[] = [
     description:
       "Dramatic beach where the Russian River meets the Pacific Ocean. Harbor seals haul out on the sand. Stunning coastal scenery.",
     devonNote:
-      "One of the most dramatic beaches on the coast. The seals are usually on the south end. March through June is pupping season, so give them space. The volunteers will be there with scopes and info. Stay at least 50 yards away. It's the law, and mama seals will abandon pups if stressed.",
+      "One of the most dramatic beaches on the coast. The seals are usually on the south end. March through June is pupping season, so give them space. The volunteers will be there with scopes and info. Stay at least 50 yards away. It's the law, and mama seals will abandon pups if stressed. Spring is seal pupping season. State Park docents are there weekends with binoculars. Stay 50 yards from the seals.",
     address: "Goat Rock Rd, Jenner, CA 95450",
     coordinates: { lat: 38.4425, lng: -123.13 },
     hours: "Sunrise to sunset",

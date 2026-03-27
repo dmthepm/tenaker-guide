@@ -198,6 +198,27 @@ export default function GettingAroundPage() {
                 If someone flashes their lights behind you, pull over and let them through. Locals know these roads. Plenty of pulloffs. Everybody&apos;s happier.
               </p>
             </div>
+                        <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground">
+                Returning a rental car to STS?
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                There is no gas station between Cazadero and the Schulz airport.
+                Fill up in Guerneville or Santa Rosa before returning your car,
+                or you will be paying the rental company&apos;s fuel surcharge.
+              </p>
+            </div>
+                        <div className="bg-card border border-border rounded-xl p-4">
+              <h3 className="text-sm font-semibold text-foreground">
+                Weather forecast
+              </h3>
+              <p className="text-xs text-muted mt-1">
+                <a href="https://www.wunderground.com/forecast/us/ca/cazadero/95421" target="_blank" rel="noopener noreferrer" className="text-accent underline">Weather Underground</a>
+                {" "}is the most reliable forecast for Cazadero. Mountain weather
+                shifts fast. Mornings can be foggy and cold, afternoons warm.
+                Layers are the move.
+              </p>
+            </div>
             <div className="bg-card border border-border rounded-xl p-5">
               <p className="text-2xl mb-2">✈️</p>
               <h3 className="text-base font-semibold text-foreground">SFO or STS?</h3>
