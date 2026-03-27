@@ -939,12 +939,12 @@ export const venues: Venue[] = [
     category: "outdoors",
     subcategory: "swimming",
     description:
-      "The creek that runs through Cazadero. Swimming holes, rock hopping, and the soundtrack of the forest.",
+      "The creek that runs through Cazadero. Swimming holes, rock hopping, and the soundtrack of the forest. Access is through private property only.",
     devonNote:
-      "This is the creek from the film. Multiple access points. Ask me and I'll show you the best spots. Cold but refreshing.",
+      "Access is through private property only. You can get to the creek through our place, and we'll open that up at certain times. Ask me and I'll let you know when.",
     address: "Cazadero, CA 95421",
     coordinates: { lat: 38.534, lng: -123.061 },
-    hours: "Always accessible",
+    hours: "By arrangement with Devon",
     driveTime: "0 min",
     priceRange: "$",
     tags: ["swimming", "nature", "local", "free"],
